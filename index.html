@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>Power - Bootstrap HTML5 Template</title>
+        <title>PiWars Türkiye</title>
     	<meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- 
@@ -20,10 +20,12 @@ http://www.templatemo.com/tm-508-power
         <link rel="stylesheet" href="css/templatemo_misc.css">
         <link rel="stylesheet" href="css/templatemo_style.css">
         <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script> 
 
-        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
     <body>
+        
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -43,15 +45,14 @@ http://www.templatemo.com/tm-508-power
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                         </button>
-                                        <a href="#top" class="navbar-brand">PiWars Turkey</a>
+                                        <a href="#top" class="navbar-brand" >PiWars Turkey</a>
                                         <div id="main-nav" class="collapse navbar-collapse">
                                             <ul class="menu-first nav navbar-nav" style="margin-right: 20px;">
-                                                <li class="active"><a href="#">Home</a></li>
-                                                <li><a href="#about">About Us</a></li>
-                                                <li><a href="#portfolio">Portfolio</a></li>
-                                                <li><a href="#blog">Blog Entries</a></li>
-                                                <li><a href="http://templatemo.com" class="external" target="_parent" rel="nofollow">External</a></li> 
-                                                <li><a href="#contact-us">Contact</a></li>                                 
+                                                <li class="active"><a href="#">Ana Sayfa</a></li>
+                                                <li><a href="#about">Yarışma Hakkında</a></li>
+                                                <li><a href="#sponsor">Ödül ve Sponsorlar</a></li>
+                                                <li><a href="#contact-us">Başvur</a></li> 
+                                                <li><a href="https://piwars.org/" class="external" target="_parent" rel="nofollow">PiWars Cambridge</a></li>                                 
                                             </ul>                                    
                                         </div> <!-- /.main-menu -->
                                     </div>
@@ -69,17 +70,17 @@ http://www.templatemo.com/tm-508-power
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="banner-content">
-                            <h6>Join us for the very first</h6>
-                            <h2>Pi Wars Turkey</h2>
+                            <h6>Raspberry Pi Tabanlı Mobil Robot Yarışması</h6>
+                            <h2>Pİ Wars Türkİye</h2>
                             <ul class="buttons">
                                 <li>
                                     <div class="primary-button">
-                                        <a href="#about">About Us</a>
+                                        <a href="#about">Hakkında</a>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="secondary-button">
-                                        <a href="#portfolio">Register Now</a>
+                                        <a href="#contact-us">Başvur</a>
                                     </div>
                                 </li>
                             </ul>
@@ -94,9 +95,56 @@ http://www.templatemo.com/tm-508-power
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4>Web Design &amp; Development Crew!</h4>
-                        <h6>WE CREATE HTML CSS TEMPLATE</h6>
-                        <div class="border-button"><a href="#portfolio">Discover More</a></div>
+                        <h4><b>23 Mart 2019</b></h4>
+                        <h6><table class="container">
+            <tr class="info">
+                <td id="days"></td>
+                <td id="hrs"></td>
+                <td id="min"></td>
+                <td id="sec"></td>
+            </tr>
+            <tr>
+                <td>Days</td>
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
+            </tr>
+            
+        </table>
+        <script type="text/javascript">
+            function countDown()
+            {
+                var today = new Date();
+                var eventDate = new Date("March 23,2019 09:00:00");
+
+                var currentTime = today.getTime();
+                var eventTime = eventDate.getTime();
+
+                var remTime = eventTime - currentTime;
+
+                var sec = Math.floor(remTime/1000);
+                var min = Math.floor(sec/60);
+                var hrs = Math.floor(min/60);
+                var days = Math.floor(hrs/24);
+
+                hrs = hrs%24;
+                min%=60;
+                sec%=60;
+                hrs = (hrs<10) ? "0"+hrs : hrs;
+                min = (min<10) ? "0"+min : min;
+                sec = (sec<10) ? "0"+sec : sec;
+                document.getElementById("days").innerHTML =days ;
+                document.getElementById("hrs").innerHTML =hrs ;
+                document.getElementById("min").innerHTML =min ;
+                document.getElementById("sec").innerHTML =sec ;
+
+                setTimeout(countDown,1000);
+
+            }
+
+            countDown();
+        </script>
+    </h6>
                     </div>
                 </div>
             </div>
@@ -104,24 +152,24 @@ http://www.templatemo.com/tm-508-power
 
 
         <section id="about" class="page-section">
-            <div class="container-fluid">
-                <div class="row">
+            <!--<div class="container-fluid">-->
+                <div class="row"> 
                     <div class="col-md-4">
                         <div class="service-item first-service">
                             <div class="icon">
                                 <img src="img/first-service-icon.png" alt="">
                             </div>
-                            <h4>Mobile Ready</h4>
-                            <p>Aenean ac ultricies nisl. Nullam vitae aliquam velit. Vestibulum a ex eget arcu accumsan luctus at vitae urna. Vestibulum ante ipsum primis in faucibus.</p>
+                            <h4>Pİ Wars</h4>
+                            <p>PiWars, İngiltere Cambridge Üniversitesinde son 4 yıldır düzenlenen uluslararası bir robotik yarışmasıdır. Bu yarışmada katılımcılar kredi kartı boyutunda bir bilgisayar olarak düşünebileceğiniz Raspberry Pi’ı kullanarak 30cm x 22.5cm boyutunda mobil robotlar üretirler. Robotlar yarışmadaki  engebeli parkuru tamamlama ve hedefleri vurma gibi hem otonom hem de uzaktan kumandalı görevleri tamamlayarak puan kazanır ve buna göre sıralandırılırlar. PiWars Cambridge geçen sene 43 takıma ve 150’den fazla kişiye ev sahipliği yapmıştır. </p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="service-item second-service">
                             <div class="icon">
-                                <img src="img/second-service-icon.png" alt="">
+                                <img src="img/first-service-icon.png" alt="">
                             </div>
-                            <h4>HTML CSS</h4>
-                            <p>Aenean ac ultricies nisl. Nullam vitae aliquam velit. Vestibulum a ex eget arcu accumsan luctus at vitae urna. Vestibulum ante ipsum primis in faucibus.</p>
+                            <h4>PİWars Türkiye</h4>
+                            <p>Geçen sene okulumuzdan 6 kişi ile bu etkinliğe katılmış ve etkinliği gerçekten çok eğlenceli bulmuş ve aynı zamanda da öğrencilerin elektronik ve programlama gibi alanlara girmesi için çok iyi bir ortam sunduğunu görmüştük. Yarışmadan döndükten sonra bu etkinliği Türkiyeye getirebilir miyiz diye düşündük. Yazın uzun süre PiWars’un organizatörleri ile maillaştıktan sonra yarışmayı İstanbula getirmeye hak kazandık ve Cambridge dışındaki yarışmanın ilk ve tek ayağı olduk. Yarışma Hisar Okullarında 23 mart tarihinde gerçekleşecektir </p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -129,10 +177,10 @@ http://www.templatemo.com/tm-508-power
                             <div class="icon">
                                 <img src="img/third-service-icon.png" alt="">
                             </div>
-                            <h4>Responsive Design</h4>
-                            <p>Aenean ac ultricies nisl. Nullam vitae aliquam velit. Vestibulum a ex eget arcu accumsan luctus at vitae urna. Vestibulum ante ipsum primis in faucibus.</p>
+                            <h4>Eğitim</h4>
+                            <p>PiWars Türkiye etkinliği, yarışmanın yanı sıra bir de eğitim içererek iki aşamadan oluşacaktır. İki gün sürecek bu eğitimimizde İstanbuldaki maddi olarak dezavantajlı olan okullardan öğrencilere robotları için  gerekli parçalar sağlanacak ve kendi robotları yaptırılacaktır. Eğitime katılan takımlar daha sonra yaptıkları robotları ile yarışmamıza katılacaktır. Bu eğitimimiz sayesinde öğrencilerin robotik alanına girmesini engelleyen maddi bariyeri kaldırmayı amaçlıyoruz. Eğitimimizin yarışmadan bir ay önce, 22-23 şubat tarihlerinde yapılması planlanıyor. </p>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </section>
@@ -142,8 +190,11 @@ http://www.templatemo.com/tm-508-power
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-heading">
-                            <h4>What we can do else</h4>
-                            <p>Sed tortor lorem, mollis in fringilla sit amet, accumsan eget turpis. Donec ut sollicitudin quam. Sed tempor porta malesuada. Cras aliquam nisi eget efficitur ultrices. Aenean ac ultricies nisl.</p>
+                            <h4>Yarışmalar</h4>
+                            <p>PiWars etkinliğinde hem otonom hem de uzaktan kumandalı görever bulunur. PiWars Türkiye etkinliği için seçtiğimiz görevleri ve kurallarını aşağıda görebilirsiniz. </p>
+                            <div class="primary-button">
+                                <a href="https://piwars.org/2019-competition/general-rules/" class="external" target="_parent" rel="nofollow">Genel Kurallar ve kısıtlamalar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -158,7 +209,7 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="icon">
                                                     <img src="img/first-list-icon.png" alt="">
                                                 </div>
-                                                <h4>Unique Ideas</h4>
+                                                <h4>PiNoon</h4>
                                             </div>
                                         </a>
                                     </li>
@@ -168,7 +219,7 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="icon">
                                                     <img src="img/second-list-icon.png" alt="">
                                                 </div>
-                                                <h4>Theme Edit</h4>
+                                                <h4>Obstacle Course</h4>
                                             </div>
                                         </a>
                                     </li>
@@ -178,7 +229,7 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="icon">
                                                     <img src="img/third-list-icon.png" alt="">
                                                 </div>
-                                                <h4>Translation</h4>
+                                                <h4>Duck Shoot</h4>
                                             </div>
                                         </a>
                                     </li>
@@ -188,7 +239,7 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="icon">
                                                     <img src="img/fourth-list-icon.png" alt="">
                                                 </div>
-                                                <h4>Event Meeting</h4>
+                                                <h4>Proximity Alert</h4>
                                             </div>
                                         </a>
                                     </li>
@@ -198,7 +249,7 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="icon">
                                                     <img src="img/fivth-list-icon.png" alt="">
                                                 </div>
-                                                <h4>HD Photos</h4>
+                                                <h4>Line Following</h4>
                                             </div>
                                         </a>
                                     </li>
@@ -212,16 +263,18 @@ http://www.templatemo.com/tm-508-power
                                         <div class="tab-content-services">
                                             <div class="col-md-6">
                                                 <div class="left-text">
-                                                    <h4>Unique Ideas</h4>
-                                                    <p>Power is free Bootstrap CSS template from <a rel="nofollow" href="http://templatemo.com" target="_parent">Templatemo</a> website. Feel free to modify and use this layout. Please tell your friends about our website. Mixtape hella beard meditation, organic polaroid waistcoat humblebrag taxider my tumblr. Hexagon kinfolk chartreuse shoreditch. <br><br>Pour-over hammock intelligentsia hashtag air plant distillery. Sustainable selvage hashtag, +1 messenger bag pop-up banh mi jianbing art party roof party try-hard retro small batch. Kogi fanny pack raclette mustache, pok pok jean shorts +1 tote bag keffiyeh. Post-ironic af master polaroid.</p>
+                                                    <h4>PiNoon</h4>
+                                                    <p>Pinoon, iki robotun birbirleriyle savaştığı interaktif bir yarışmadır. Amaç diğer robota bağlı balonu, kendi robotunuzdaki iğne ilepatlatmaktır.  </p>
                                                     <div class="primary-button">
-                                                        <a href="#contact-us">Download Now</a>
+                                                        <a href="file:///Users/emrecagin/Downloads/piwarsturkey-website/index2.html" class="external" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="right-image">
+                                                    <!--
                                                     <img src="img/right-side-image_1.jpg" alt="">
+                                                -->
                                                 </div>
                                             </div>
                                         </div>
@@ -232,16 +285,18 @@ http://www.templatemo.com/tm-508-power
                                         <div class="tab-content-services">
                                             <div class="col-md-6">
                                                 <div class="left-text">
-                                                    <h4>Theme Edit</h4>
-                                                    <p>Lomo austin health goth meditation quinoa, banh mi pork belly man bun hella ugh migascardigan gluten-free. Gochujang dreamcatcher tofu brunch banjo. VHS austin cardigan squid poke tumeric humblebrag next level everyday carry biodiesel put a bird on it raw denim. Fanny pack aesthetic kinfolk twee <br><br>succulents roof party wayfarers meggings ugh tumblr shaman kale chips green. Before they sold out live-edge kinfolk man bun pop-up scenester ramps taiyaki tacos raclette mixtape la croix post-ironic leggings. Twee typewriter taxidermy, woke farm-to-table hell of cliche celiac meggings.</p>
-                                                    <div class="primary-button">
-                                                        <a href="#contact-us">Download Now</a>
+                                                    <h4>Obstacle Course</h4>
+                                                    <p>Obstacle course'ta robotunuz enebeli bir parkurdan geçmeye çalışır. Bu parkuru en kısa zamanda tamamlayan en çok puan kazanır. </p>
+                                                     <div class="primary-button">
+                                                        <a href="https://piwars.org/2018-competition/challenges/the-obstacle-course/" class="external" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="right-image">
+                                                    <!--
                                                     <img src="img/right-side-image_2.jpg" alt="">
+                                                -->
                                                 </div>
                                             </div>
                                         </div>
@@ -252,16 +307,18 @@ http://www.templatemo.com/tm-508-power
                                         <div class="tab-content-services">
                                             <div class="col-md-6">
                                                 <div class="left-text">
-                                                    <h4>Translation</h4>
-                                                    <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa microdosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm-to-table, cold-pressed authen tic. Mixtape hella beard meditation, organic polaroid waistcoat humblebrag taxider my tumblr. Hexagon kinfolk chartreuse shoreditch. <br><br>Pour-over hammock intelligentsia hashtag air plant distillery. Sustainable selvage hashtag, +1 messenger bag pop-up banh mi jianbing art party roof party try-hard retro small batch. Kogi fanny pack raclette mustache, pok pok jean shorts +1 tote bag keffiyeh. Post-ironic af master polaroid.</p>
+                                                    <h4>Duck Shoot</h4>
+                                                    <p>Duck Shoot, karşınızdaki bazı hedefleri bir fırlatma mekanizmasıyla vurduğunuz veya yerdeki bir topu iterek hedefleri devirmeye çalıştığınız bir yarışmadır. </p>
                                                     <div class="primary-button">
-                                                        <a href="#contact-us">Download Now</a>
+                                                        <a href="https://piwars.org/2018-competition/challenges/the-duck-shoot/" class="external" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="right-image">
+                                                    <!--
                                                     <img src="img/right-side-image_3.jpg" alt="">
+                                                -->
                                                 </div>
                                             </div>
                                         </div>
@@ -272,16 +329,18 @@ http://www.templatemo.com/tm-508-power
                                         <div class="tab-content-services">
                                             <div class="col-md-6">
                                                 <div class="left-text">
-                                                    <h4>Event Meeting</h4>
-                                                    <p>Lomo austin health goth meditation quinoa, banh mi pork belly man bun hella ugh migascardigan gluten-free. Gochujang dreamcatcher tofu brunch banjo. VHS austin cardigan squid poke tumeric humblebrag next level everyday carry biodiesel put a bird on it raw denim. Fanny pack aesthetic kinfolk twee <br><br>succulents roof party wayfarers meggings ugh tumblr shaman kale chips green. Before they sold out live-edge kinfolk man bun pop-up scenester ramps taiyaki tacos raclette mixtape la croix post-ironic leggings. Twee typewriter taxidermy, woke farm-to-table hell of cliche celiac meggings.</p>
+                                                    <h4>Proximity Alert</h4>
+                                                    <p>Proximity alert otonom bir görevdir, bir duvara 0.5 metre uzaklıktaki robotunuz, üzerindeki sensörlerle bu duvara çarpmadan olabildiğince yaklaşmaya çalışır. </p>
                                                     <div class="primary-button">
-                                                        <a href="#contact-us">Download Now</a>
+                                                        <a href="https://piwars.org/2014-competition/2014-challenges/proximity-alert/" class="external" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="right-image">
+                                                    <!--
                                                     <img src="img/right-side-image_4.jpg" alt="">
+                                                -->
                                                 </div>
                                             </div>
                                         </div>
@@ -292,16 +351,19 @@ http://www.templatemo.com/tm-508-power
                                         <div class="tab-content-services">
                                             <div class="col-md-6">
                                                 <div class="left-text">
-                                                    <h4>HD Images</h4>
-                                                    <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa microdosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm-to-table, cold-pressed authen tic. Mixtape hella beard meditation, organic polaroid waistcoat humblebrag taxider my tumblr. Hexagon kinfolk chartreuse shoreditch. <br><br>Pour-over hammock intelligentsia hashtag air plant distillery. Sustainable selvage hashtag, +1 messenger bag pop-up banh mi jianbing art party roof party try-hard retro small batch. Kogi fanny pack raclette mustache, pok pok jean shorts +1 tote bag keffiyeh. Post-ironic af master polaroid.</p>
+                                                    <h4>Line Following</h4>
+                                                    <p>Line Following görevinde robotunuz beyaz bir yüzey üstündeki siyah çizgiyi takip eder. Çizgiyi en hızlı ve başarılı tamamlayan robot 1. olur. </p>
                                                     <div class="primary-button">
-                                                        <a href="#contact-us">Download Now</a>
+                                                        <a href="https://piwars.org/2015-competition/challenges/line-follower/" class="external" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
                                                     </div>
+
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="right-image">
+                                                    <!--
                                                     <img src="img/right-side-image_5.jpg" alt="">
+                                                    -->
                                                 </div>
                                             </div>
                                         </div>
@@ -315,68 +377,17 @@ http://www.templatemo.com/tm-508-power
         </div>
 
 
-        <section id="portfolio" class="portfolio-section">
+        <section id="sponsor" class="portfolio-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-heading">
-                            <h4>What We Can Do Else</h4>
+                            <h4>Ödül!</h4>
                             <p>Aliquam neque neque, commodo in euismod id, lobortis in lacus. Duis interdum sagittis velit, fermentum tincidunt lectus. Nam ornare turpis.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div id="owl-portfolio" class="owl-carousel owl-theme imageGallery1">
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/first-portfolio-big.jpg" title=""><img src="img/first-portfolio-item.jpg" alt="Gallery image 1" /></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/second-portfolio-big.jpg" title=""><img src="img/second-portfolio-item.jpg" alt="Gallery image 1" /></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/third-portfolio-big.jpg" title=""><img src="img/third-portfolio-item.jpg" alt="Gallery image 1" /></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/fourth-portfolio-big.jpg" title=""><img src="img/fourth-portfolio-item.jpg" alt="Gallery image 1" /></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/first-portfolio-big.jpg" data-lightbox="image-1"><img src="img/first-portfolio-item.jpg"></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/second-portfolio-big.jpg" title=""><img src="img/second-portfolio-item.jpg" alt="Gallery image 1" /></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/first-portfolio-big.jpg" title=""><img src="img/first-portfolio-item.jpg" alt="Gallery image 1" /></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/third-portfolio-big.jpg" title=""><img src="img/third-portfolio-item.jpg" alt="Gallery image 1" /></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/first-portfolio-big.jpg" data-lightbox="image-1"><img src="img/first-portfolio-item.jpg"></a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="portfolio-item">
-                                <a href="img/fourth-portfolio-big.jpg" title=""><img src="img/fourth-portfolio-item.jpg" alt="Gallery image 1" /></a>
-                            </div>
-                        </div>
+                
                     </div>
                 </div>
             </div>
@@ -388,125 +399,8 @@ http://www.templatemo.com/tm-508-power
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-heading">
-                            <h4>Our Blog Entries</h4>
+                            <h4>Sponsorlar!</h4>
                             <p>Aliquam neque neque, commodo in euismod id, lobortis in lacus. Duis interdum sagittis velit, fermentum tincidunt lectus. Nam ornare turpis.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="wrapper">
-                        <div class="col-md-6">
-                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
-                                <li><a href="#tab1" class="active">
-                                    shoreditch wolf ethical hashtag
-                                    <ul class="info-post">
-                                        <li><i class="fa fa-user"></i>Admin</li>
-                                        <li><i class="fa fa-calendar"></i>14 November 2017</li>
-                                        <li><i class="fa fa-wechat"></i>12 Comments</li>
-                                    </ul>
-                                </a></li>
-                                <li><a href="#tab2">
-                                    kickstarter master cleanse scenester
-                                    <ul class="info-post">
-                                        <li><i class="fa fa-user"></i>Krist</li>
-                                        <li><i class="fa fa-calendar"></i>08 November 2017</li>
-                                        <li><i class="fa fa-wechat"></i>16 Comments</li>
-                                    </ul>
-                                </a></li>
-                                <li><a href="#tab3">
-                                    Seitan flexitarian prism shaman
-                                    <ul class="info-post">
-                                        <li><i class="fa fa-user"></i>Nanny</li>
-                                        <li><i class="fa fa-calendar"></i>02 November 2017</li>
-                                        <li><i class="fa fa-wechat"></i>9 Comments</li>
-                                    </ul>
-                                </a></li>
-                                <li><a href="#tab4">
-                                    Fashion axe selvage everyday carry
-                                    <ul class="info-post">
-                                        <li><i class="fa fa-user"></i>Krist</li>
-                                        <li><i class="fa fa-calendar"></i>28 October 2017</li>
-                                        <li><i class="fa fa-wechat"></i>11 Comments</li>
-                                    </ul>
-                                </a></li>
-                                <li><a href="#tab5">
-                                    chambray truffaut godard flannel
-                                    <ul class="info-post">
-                                        <li><i class="fa fa-user"></i>Admin</li>
-                                        <li><i class="fa fa-calendar"></i>22 October 2017</li>
-                                        <li><i class="fa fa-wechat"></i>24 Comments</li>
-                                    </ul>
-                                </a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <div id="first-tab-group" class="tabgroup">
-                                <div id="tab1">
-                                    <img src="img/blog-post-1.jpg" alt="">
-                                    <div class="text-content">
-                                        <h4>shoreditch wolf ethical hashtag</h4>
-                                        <ul class="info-post">
-                                            <li><i class="fa fa-user"></i>Admin</li>
-                                            <li><i class="fa fa-calendar"></i>14 November 2017</li>
-                                            <li><i class="fa fa-wechat"></i>12 Comments</li>
-                                        </ul>
-                                        <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa micro dosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm to table, cold pressed authen tic. Mixtape hella beard meditation, Pok pok meh tote bag single-origin coffee, everyday carry unicorn raw denim distillery cray pork belly taxidermy organic polaroid.</p>
-                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
-                                    </div>
-                                </div>
-                                <div id="tab2">
-                                    <img src="img/blog-post-2.jpg" alt="">
-                                    <div class="text-content">
-                                        <h4>kickstarter master cleanse scenester</h4>
-                                        <ul class="info-post">
-                                            <li><i class="fa fa-user"></i>Krist</li>
-                                            <li><i class="fa fa-calendar"></i>08 November 2017</li>
-                                            <li><i class="fa fa-wechat"></i>16 Comments</li>
-                                        </ul>
-                                        <p>Artisan messenger bag gochujang tote bag, leggings synth literally unicorn street art ramps slow-carb everyday carry mixtape. Tbh synth hell of kombucha hot chicken dreamcatcher gentrify organic asymmetrical gastropub VHS photo booth raw denim. Vape edison bulb glossier air plant heirloom readymade bitters air plant pug.</p>
-                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
-                                    </div>
-                                </div>
-                                <div id="tab3">
-                                    <img src="img/blog-post-3.jpg" alt="">
-                                    <div class="text-content">
-                                        <h4>Seitan flexitarian prism shaman</h4>
-                                        <ul class="info-post">
-                                            <li><i class="fa fa-user"></i>Nanny</li>
-                                            <li><i class="fa fa-calendar"></i>02 November 2017</li>
-                                            <li><i class="fa fa-wechat"></i>9 Comments</li>
-                                        </ul>
-                                        <p>Cronut slow-carb 90's irony cred fashion axe jean shorts cardigan wayfarers. Typewriter retro plaid jianbing 90's taiyaki, sriracha vegan fam. Letterpress cornhole mixtape ethical celiac distillery echo park. Selvage readymade cornhole vape. Semiotics iPhone mumblecore, sartorial succulents slow-carb offal pabst trust fund brunch.</p>
-                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
-                                    </div>
-                                </div>
-                                <div id="tab4">
-                                    <img src="img/blog-post-4.jpg" alt="">
-                                    <div class="text-content">
-                                        <h4>Fashion axe selvage everyday carry</h4>
-                                        <ul class="info-post">
-                                            <li><i class="fa fa-user"></i>Krist</li>
-                                            <li><i class="fa fa-calendar"></i>28 October 2017</li>
-                                            <li><i class="fa fa-wechat"></i>11 Comments</li>
-                                        </ul>
-                                        <p>La croix kombucha bespoke dreamcatcher, tumeric tbh quinoa micro dosing gastro pub. 8-bit freegan chartreuse synth jean shorts farm to table, cold pressed authen tic. Mixtape hella beard meditation, Pok pok meh tote bag single-origin coffee, everyday carry unicorn raw denim distillery cray pork belly taxidermy organic polaroid.</p>
-                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
-                                    </div>
-                                </div>
-                                <div id="tab5">
-                                    <img src="img/blog-post-5.jpg" alt="">
-                                    <div class="text-content">
-                                        <h4>chambray truffaut godard flannel</h4>
-                                        <ul class="info-post">
-                                            <li><i class="fa fa-user"></i>Admin</li>
-                                            <li><i class="fa fa-calendar"></i>22 October 2017</li>
-                                            <li><i class="fa fa-wechat"></i>24 Comments</li>
-                                        </ul>
-                                        <p>Cronut slow-carb 90's irony cred fashion axe jean shorts cardigan wayfarers. Typewriter retro plaid jianbing 90's taiyaki, sriracha vegan fam. Letterpress cornhole mixtape ethical celiac distillery echo park. Selvage readymade cornhole vape. Semiotics iPhone mumblecore, sartorial succulents slow-carb offal pabst trust fund brunch.</p>
-                                        <div class="primary-button"><a href="#contact-us">Continue Reading</a></div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -519,7 +413,7 @@ http://www.templatemo.com/tm-508-power
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-heading">
-                            <h4>Contact Us</h4>
+                            <h4>Başvur</h4>
                             <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst.</p>
                         </div>
                     </div>
@@ -569,10 +463,13 @@ http://www.templatemo.com/tm-508-power
             3. Click "Share" and choose "Embed map" tab
             4. Copy only URL and paste it within the src="" field below
 	-->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" width="100%" height="395" frameborder="0" style="border:0" allowfullscreen></iframe>
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.1253265148594!2d28.890556715085783!3d41.17543361707134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab2efd52f489f%3A0xe7d088ae26b38280!2sHisar+Schools+Culture+Center!5e0!3m2!1sen!2str!4v1537983310756" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
+                <h2>Biz Kimiz?</h2>
+                <IMG STYLE="position:absolute; TOP:3950px; LEFT:170px; WIDTH:50px; HEIGHT:50px" SRC="img/close.png"><!--Bunlar biz kimizde initial placeler-->
+                <DIV style="position: absolute; top:4000px; left:170px; width:200px; height:25px">Deneme</DIV>
             </div>
         </section>
 
