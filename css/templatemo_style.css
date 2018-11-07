@@ -220,7 +220,7 @@ p {
 }
 
 .banner {
-  background-image: url(../img/banner-bg.jpg);
+  background-image: url(../img/banner-bg.jpg);/*Üstteki resim için image srcsi */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -291,7 +291,7 @@ p {
 
 #about {
   padding: 0px;
-  background-image: url(../img/services-bg.jpg);
+  background-image: url(../img/services-bg.jpg);/*alttaki resmin image srcsi */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -319,7 +319,7 @@ p {
 }
 
 #about .first-service {
-  background-color: rgba(242, 116, 95, 0.75);
+  background-color: rgba(242, 116, 95, 0.75);/* sütunlar ile ilgili kodlar line 331'e kadar */
 }
 
 #about .second-service {
