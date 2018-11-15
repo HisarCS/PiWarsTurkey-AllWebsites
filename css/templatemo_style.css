@@ -287,7 +287,38 @@ p {
   margin-top: 45px;
 }
 
+#ContentOfPinoon {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
 
+#ContentOfPinoon .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  background-color: rgba(134, 142, 150, 0.75);
+}
+
+#ContentOfPinoon .service-item h2 {
+  font-weight: bold
+}
+
+#ContentOfPinoon .service-item img {
+  float: right;
+}
+
+#ContentOfPinoon .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfPinoon .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
 
 #about {
   padding: 0px;
@@ -976,3 +1007,4 @@ footer .back-to-top i {
     from { opacity: 0; @include transform(translate3d(0, -1em, 0)); }
     to { opacity: 1; @include transform(translate3d(0, 0, 0)); }
 }
+
