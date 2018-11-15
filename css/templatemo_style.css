@@ -289,11 +289,16 @@ p {
 
 #ContentOfPinoon {
   padding: 0px;
-  background-image: url(../img/services-bg.jpg);/*alttaki resmin image srcsi */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+#ContentOfPinoon .service-item {
+  text-align: center;
+  margin: 0px -15px;
+  padding: 120px 45px;
 }
 
 #about {
