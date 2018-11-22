@@ -1,0 +1,90 @@
+.pinoonbanner {
+	background-image: url(../img/banner-bg.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+ 	background-position: center center;
+}
+
+.pinoonbanner-content h2 {
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 160px;
+  margin-bottom: 30px;
+}
+
+.pinoonbanner-content h4 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.pinoonbanner-content h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.pinoonbanner-content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pinoonbanner-content ul li {
+  display: inline-block;
+  margin: 10px;
+}
+.pinoonText {
+	background-image: url(../img/banner-bg.jpg);
+	background-repeat: no-repeat;
+  	background-size: cover;
+ 	background-position: center center;
+}
+
+.pinoonText-content h2 {
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 160px;
+  margin-bottom: 30px;
+}
+
+.pinoonText-content h4 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.pinoonText-content h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.pinoonText-content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pinoonText-content ul li {
+  display: inline-block;
+  margin: 10px;
+}

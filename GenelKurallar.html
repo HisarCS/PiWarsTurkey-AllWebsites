@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <title>PiWars Türkiye</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/templatemo_misc.css">
+        <link rel="stylesheet" href="css/templatemo_style.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script> 
+
+    </head>
+    <body>
+       
+
+        <div class="site-main" id="sTop">
+            <div class="site-header">
+                <div class="main-header">
+                    <div class="container">
+                        <div id="menu-wrapper">
+                            <div class="row">
+                                <nav class="navbar navbar-inverse" role="navigation">
+                                    <div class="navbar-header">
+                                        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a href="#top" class="navbar-brand" >PiWars Turkey</a> <!--Üstteki barın yazdıklarını editler-->
+                                        <div id="main-nav" class="collapse navbar-collapse">
+                                            <ul class="menu-first nav navbar-nav" style="margin-right: 20px;">
+                                                <li><a href="#about">Yarışma Hakkında</a></li>
+                                                <li><a href="#sponsor">Ödül ve Sponsorlar</a></li>
+                                                <li><a href="#apply">Başvur</a></li>
+                                                <!--<li><a href="https://piwars.org/" class="external" target="_parent" rel="nofollow">PiWars Cambridge</a></li> --> 
+                                                <li><a href="#schedule">Ajanda</a></li>
+                                                <li><a href="#faq">SSS</a></li>
+                                            </ul>                                    
+                                        </div> <!-- /.main-menu -->
+                                    </div>
+                                </nav>
+                            </div> <!-- /.row -->
+                        </div> <!-- /#menu-wrapper -->                        
+                    </div> <!-- /.container -->
+                </div> <!-- /.main-header -->
+            </div> <!-- /.site-header -->
+        </div> <!-- /.site-main -->
+
+ <section id="ContentOfDuckShoot" class="page-section">
+            <div class="row"> 
+                <div class="service-item">
+                    <h1><b> Genel Kurallar </b></h1>
+                    <li>Lütfen kuralları dikkatlice okuyunuz. </li>
+                    <h2> Takım Kuralları </h2>
+                    <ul>
+                        <li> 18 yaşının altındaki yarışmacılar sorumlu bir yetişkinle birlikte katılmalıdır. </li>
+                        <li>Her takımın en az bir üyesinin asıl organizasyona katılabilmesi gerekmektedir. </li>
+                        <li>Maksimum takım üyesi sayısı için bir kısıtlama bulunmasa da 10 kişiden fazla üyesi olan takımların koordine olmasının daha zor olduğunu hatırlatırız. Takımınızın üye sayısı size yarışmaya hazırlanırken sorulacak ve “çalışma odaları” bu sayıya göre atanacaktır. </li>
+                        <li>Tüm robotlar kapalı veya çalışma odalarında blokların üzerinde kalmalılardır. Bu, sürücü kontrolü karışıklıkları veya otonom/sürücü kontrolü hatalarının robotun masadan düşmesine, veya herhangi bir şekilde zarar görmesini engellemek için yapılır. </li>
+                    </ul>
+
+                    <h2> Robot Kuralları </h2>
+                    <h3>Çekirdekte Raspberry Pi</h3>
+                    <ul>
+                        <li> Tüm robotların (core), çekirdeklerinde, kodlama işleminin büyük bir kısmını taşıyan operasyonelin Raspberry Pi olması gerekir. </li>
+                        <li>Arduino, micro:bit gibi başka panolar veya mikrodenetleyiciler robotta kullanılabilirler, ancak Raspberry Pi’ın genel kontrolde olması gerekir. </li>
+                        <li>Oyun kontrolcü, bilgisayar, cep telefonu veya tablet gibi robotun kontrolünün sağlanabileceği cihazlar robotu kontrol ederken kullanılabilirler, ancak yarışma sırasında fiziksel olarak robota bağlı olmamalılardır. </li>
+                    </ul>
+                    <h3>Güç</h3>
+                    <ul>
+                        <li>Tüm robotlar pillerle çalışmalıdır. </li>
+                        <li>Pil paketlerini şarj etmek için şebeke gücü kullanılabilir. </li>
+                        <li>Eğer LiPo pilleri kullanılıyorsa, her/herhangi şarj etme işlemi mutlaka ateşe dayanıklı bir çanta içerisinde yapılmalıdır. Bu çantalar (poşetler) bir çok pil satan yerlerde olabilir (örneğin: HobbyKing). Bu, kazaları önlemek içindir. </li>
+                    </ul>
+                    <h3>Robot Tipleri </h3>
+                    <ul>
+                        <li>Hava (uçan) robotlara izin verilmez, örn. dronlar. </li>
+                        <li>Yürüyen ve kendini dengeleyebilen robotlara izin verilir. </li>
+                    </ul>
+                    <img class="size-full wp-image-4406" src="img/GeneralRules.jpg" alt="" width="500" height="250" >
+                    <h3>Büyüklük</h3>
+                    <ul>
+                        <li>Yarışan robotların temel şasisi (tekerlekler ve çıkıntılar dahil olmak üzere) <b>225mm x 300mm’e sığmalıdır.</b> İleri hareket ederken: </li>
+                        <ul>
+                            <li>Maksimum genişlik (en) 225mm’den fazla olmamalıdır. </li>
+                            <li>Maksimum uzunluk (boy) 300mm’den fazla olmamalıdır. </li>
+                        </ul>
+                        <li>Spesifik görevler için robotlara önü en fazla 100mm büyütecek ek parçalar eklenebilir. Bu sebeple, üstüne ek parçalar ekli olan bir robotun en büyük boyutları 225 mm x 400 mm olabilir. </li>
+                        <li>Bir yükseklik limiti olmasa da lütfen ağır robotların bazı görevlerde zorlanabileceğini unutmayınız! </li>
+                        <li>Ek parça eklerken, ana şasi, Raspberry Pi ve kumanda düzenlemeleri aynı kalmalıdır. </li>
+                    </ul>
+                    <h3>Duman! Ateş!</h3>
+                    <ul>
+                        <li>Yarışmanın teması ne olursa olsun, robotunuz bilinçli olarak duman veya ateş yaymamalıdır. Bu yangın dedektörlerini harekete geçirecek ve genel olarak can sıkıcı olacaktır. </li>
+                        <li>Bina içinde lehimlemeye izin yoktur. Fakat pil gücüyle çalışan bir havya getirip, bina içine duman girmeyecek şekilde, dışarıda kullanabilirsiniz. </li>
+                    </ul>
+
+                    <h2> Görevler </h2>
+                    <ul>
+                        <li> Robotunuzu test edebileceğiniz birden fazla görev olacak. Her birinin sonucu net skorunuza katkıda bulunacak. </li>
+                        <li> Takımların her görevden kaç puan elde edebileceklerini öğrenebilmeleri için, puanlama sistemi Pi Wars tarafından yayınlanacak. </li>
+                        <li>Hiçbir görev zorunlu değil. </li>
+                        <li>Katılmadığınız görevler puan kazandırmaz. </li>
+                    </ul>
+                    <a href = index.html#about>Bazı görevler için fiziksel ihtiyaçlar olabilir - lütfen daha fazla bilgi için bireysel görev sayfalarına başvurunuz. </a>
+                </div>
+            </div>
+        </section>
+       
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                            <p>Copyright &copy; 2017 Your Company <br> 
+                            <a href="http://www.templatemo.com/tm-508-power">Power Theme</a> by <a href="http://www.html5max.com" target="_parent">HTML5 Max</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <ul class="social-icons">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Linkedin</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-md-offset-2 col-sm-12">
+                        <div class="back-to-top">
+                            <a href="#top">
+                                <i class="fa fa-angle-up"></i>
+                                back to top
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Map -->
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="js/vendor/jquery.gmap3.min.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready(function() {
+            
+            // mobile nav toggle
+            $('#nav-toggle').on('click', function (event) {
+                event.preventDefault();
+                $('#main-nav').toggleClass("open");
+            });
+        });
+        </script>
+        
+        <!-- templatemo 406 flex -->
+    </body>
+</html>

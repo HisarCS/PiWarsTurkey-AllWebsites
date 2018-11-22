@@ -6,6 +6,10 @@ http://www.templatemo.com/tm-508-power
 
 */
 
+ /* background-color: rgba(0, 187, 229, 0.75);*/ /*blue*/
+  /*background-color: rgba(242, 116, 95, 0.75); */ /*red*/
+  /*background-color: rgba(54, 62, 80, 0.75); *//*grey*/
+
 * {
     margin: 0;
     padding: 0;
@@ -226,6 +230,7 @@ p {
   background-position: center center;
 }
 
+
 .banner-content {
   text-align: center;
   padding: 280px 0px 200px 0px;
@@ -242,6 +247,16 @@ p {
 
 .banner-content h2 {
   font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.banner-content h3 {
+  font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -265,7 +280,8 @@ p {
 .intro {
   background-color: #46bae2;
   text-align: center;
-  padding: 80px 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .intro h4 {
@@ -276,7 +292,7 @@ p {
 }
 
 .intro h6 {
-  margin-top: 15px;
+  margin-top: 0px;
   font-size: 17px;
   font-weight: 700;
   color: #fff;
@@ -307,6 +323,10 @@ p {
   font-weight: bold
 }
 
+#ContentOfPinoon .service-item h3 {
+  font-weight: bold
+}
+
 #ContentOfPinoon .service-item img {
   float: right;
 }
@@ -316,6 +336,155 @@ p {
 }
 
 #ContentOfPinoon .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
+
+#ContentOfObstacleCourse {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ContentOfObstacleCourse .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  background-color: rgba(54, 62, 80, 0.75); /*grey*/
+}
+
+#ContentOfObstacleCourse .service-item h2 {
+  font-weight: bold
+}
+
+#ContentOfObstacleCourse .service-item h3 {
+  font-weight: bold
+}
+
+#ContentOfObstacleCourse .service-item img {
+  float: right;
+}
+
+#ContentOfObstacleCourse .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfObstacleCourse .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
+
+#ContentOfProximityAlert {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ContentOfProximityAlert .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  background-color: rgba(242, 116, 95, 0.75); /*red*/
+}
+
+#ContentOfProximityAlert .service-item h2 {
+  font-weight: bold
+  text-color: white;
+}
+
+#ContentOfProximityAlert .service-item h3 {
+  font-weight: bold
+}
+
+#ContentOfProximityAlert .service-item img {
+  float: right;
+}
+
+#ContentOfProximityAlert .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfProximityAlert .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
+
+#ContentOfDuckShoot {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ContentOfDuckShoot .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px; 
+  background-color: rgba(54, 62, 80, 0.75); /*grey*/
+}
+
+#ContentOfDuckShoot .service-item h2 {
+  font-weight: bold
+}
+
+#ContentOfDuckShoot .service-item h3 {
+  font-weight: bold
+}
+
+#ContentOfDuckShoot .service-item img {
+  float: right;
+}
+
+#ContentOfDuckShoot .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfDuckShoot .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
+
+#ContentOfMaze {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ContentOfMaze .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  background-color: rgba(0, 187, 229, 0);
+}
+
+#ContentOfMaze .service-item h2 {
+  font-weight: bold
+}
+
+#ContentOfMaze .service-item h3 {
+  font-weight: bold
+}
+
+#ContentOfMaze .service-item img {
+  float: right;
+}
+
+#ContentOfMaze .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfMaze .service-item li {
   list-style-type:disc
   text-size: 768px
 }
@@ -350,7 +519,7 @@ p {
 }
 
 #about .first-service {
-  background-color: rgba(242, 116, 95, 0.75);/* sütunlar ile ilgili kodlar line 331'e kadar */
+  background-color: rgba(242, 116, 95, 0.75);/* sütunlar ile ilgili kodlar line 331'e kadar */ /*red*/
 }
 
 #about .second-service {
@@ -752,6 +921,10 @@ footer .back-to-top i {
   font-size: 36px;
 }
 
+footer-icons img {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* RESPONSIVE */
