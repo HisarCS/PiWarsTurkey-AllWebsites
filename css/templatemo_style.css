@@ -1084,7 +1084,7 @@ footer .back-to-top i {
   background-color: #008CBA;
 }
 .foto:hover .foto-layer_top {
-  opacity: 1;
+  opacity: 0.8;
 }
 .text {
   color: white;
