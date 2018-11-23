@@ -1030,13 +1030,33 @@ footer-icons img {
     font-size: 17px;
     -webkit-transition: opacity 1.3s;
 }
+.faqBlock1 .question {
+  opacity: 100;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: left;
+  font-size: 17px;
+  -webkit-transition: opacity 1.3s;
+}
+.faqBlock1 .answer {
+  opacity: 0;
+  position: absolute;
+  left: 10px;
+  top: 3px;
+  text-align: left;
+  font-size: 17px;
+  -webkit-transition: opacity 1.3s;
+}
 
 
 /*.faqBlock:hover .answer{display: inline;}*/
 .faqBlock:hover {border-color: #f2745f;border-radius: 15px;}
 .faqBlock:hover .question{opacity: 0;}
 .faqBlock:hover .answer{opacity: 100;}
-
+.faqBlock1:hover {border-color: #f2745f;border-radius: 15px;}
+.faqBlock1:hover .question{opacity: 0;}
+.faqBlock1:hover .answer{opacity: 100;}
 .foto {
   position: relative;
   float: left;
