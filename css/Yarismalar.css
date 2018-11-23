@@ -1,4 +1,4 @@
-.ObstacleCoursebanner {
+.Yarismabanner {
 	background-image: url(../img/test.jpg);
 	background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.ObstacleCoursebanner-content h2 {
+.Yarismabanner-content h2 {
   font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
@@ -16,7 +16,7 @@
 
 }
 
-.ObstacleCoursebanner-content h3 {
+.Yarismabanner-content h3 {
   font-size: 18px;
   color: #fff;
   font-weight: 700;
@@ -25,33 +25,37 @@
   margin-bottom: 30px;
 }
 /* Text's css starts here*/
-.ObstacleCourseText {
+.YarismaText {
   background-color: rgba(54, 62, 80, 0.75); /*grey*/
   color: white;
   padding-left: 170px;
+  padding-bottom: 50px;
+  padding-right: 170px;
+  padding-top: 10px;
 }
 
-.ObstacleCourseText-content h2 {
+.YarismaText-content h2 {
   font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
   font-weight: bold; 
 }
 
-.ObstacleCourseText-content h3 {
+.YarismaText-content h3 {
   font-size: 35px;
   font-weight: 700px;
   text-transform: uppercase;
   font-weight: bold; 
 }
 
-.ObstacleCourseText-content ul {
+.YarismaText-content ul {
 }
 
-.ObstacleCourseText-content img {
+.YarismaText-content img {
   float: right;
 }
 
-.ObstacleCourseText-content ul li {
+.YarismaText-content ul li {
   font-size: 20px;
+  padding-left: 50px;
 }
