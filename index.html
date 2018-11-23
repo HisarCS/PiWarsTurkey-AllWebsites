@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <title>PiWars Türkiye</title>
-        <meta name="description" content="">
+    	<meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- 
 Power Template 
@@ -22,8 +22,6 @@ http://www.templatemo.com/tm-508-power
         <link rel="stylesheet" href="css/owl-carousel.css">
         <link rel="stylesheet" type="text/css" href="css/style.css"> 
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script> 
-        <link rel="duckshoot2.png">
-
 
     </head>
     <body>
@@ -56,7 +54,7 @@ http://www.templatemo.com/tm-508-power
                                                 <!--<li><a href="https://piwars.org/" class="external" target="_parent" rel="nofollow">PiWars Cambridge</a></li> --> 
                                                 <li><a href="#faq">SSS</a></li>
                                                 <li><a href="#apply">Başvur</a></li>
-                                                <li><a href="#bizkimiz">Takımımız</a></li>
+						<li><a href="#bizkimiz">Takımımız</a></li>
                                             </ul>                                    
                                         </div> <!-- /.main-menu -->
                                     </div>
@@ -74,9 +72,9 @@ http://www.templatemo.com/tm-508-power
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="banner-content">
-                            <h6>Raspberry Pi Tabanlı Mobİl Robot Yarışması</h6>
-                            <h2>Pi Wars Türkİye</h2>
-                            <font size="8" color="white">24 Mart 2019</font>
+                            <h6>Raspberry Pi Tabanlı Mobil Robot Yarışması</h6>
+                            <h2>Pİ Wars Türkİye</h2>
+			    			<font size="8" color="white">24 Mart 2019</font>
                             <ul class="buttons">
                                 <li>
                                     <div class="primary-button">
@@ -100,55 +98,55 @@ http://www.templatemo.com/tm-508-power
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">                  
-                        <h4>
-                            <table class="container">
-                                <tr class="info">
-                                    <td id="days"></td>
-                                    <td id="hrs"></td>
-                                    <td id="min"></td>
-                                    <td id="sec"></td>
-                                </tr>
-                                <tr>
-                                    <td><font size="6"><b><div class="day">Days</div></b></font></td>
-                                    <td><font size="6"><b><div class="day">Hours</div></b></font></td>
-                                    <td><font size="6"><b><div class="day">Minutes</div></b></font></td>
-                                    <td><font size="6"><b><div class="day">Seconds</div></b></font></td>
-                                </tr>    
-                            </table>
-                            <script type="text/javascript"> 
-                                function countDown()
-                                {
-                                    var today = new Date();
-                                    var eventDate = new Date("March 24,2019 09:00:00");
+                        <h4><table class="container">
+            <tr class="info">
+                <td id="days"></td>
+                <td id="hrs"></td>
+                <td id="min"></td>
+                <td id="sec"></td>
+            </tr>
+            <tr>
+                <td><font size="6"><b><div class="day">Days</div></b></font></td>
+                <td><font size="6"><b><div class="day">Hours</div></b></font></td>
+                <td><font size="6"><b><div class="day">Minutes</div></b></font></td>
+                <td><font size="6"><b><div class="day">Seconds</div></b></font></td>
+            </tr>
+            
+        </table>
+        <script type="text/javascript"> <!--countdown clock için javascript kodu-->
+            function countDown()
+            {
+                var today = new Date();
+                var eventDate = new Date("March 24,2019 09:00:00");
 
-                                    var currentTime = today.getTime();
-                                    var eventTime = eventDate.getTime();
+                var currentTime = today.getTime();
+                var eventTime = eventDate.getTime();
 
-                                    var remTime = eventTime - currentTime;
+                var remTime = eventTime - currentTime;
 
-                                    var sec = Math.floor(remTime/1000);
-                                    var min = Math.floor(sec/60);
-                                    var hrs = Math.floor(min/60);
-                                    var days = Math.floor(hrs/24);
+                var sec = Math.floor(remTime/1000);
+                var min = Math.floor(sec/60);
+                var hrs = Math.floor(min/60);
+                var days = Math.floor(hrs/24);
 
-                                    hrs = hrs%24;
-                                    min%=60;
-                                    sec%=60;
-                                    hrs = (hrs<10) ? "0"+hrs : hrs;
-                                    min = (min<10) ? "0"+min : min;
-                                    sec = (sec<10) ? "0"+sec : sec;
-                                    document.getElementById("days").innerHTML =days ;
-                                    document.getElementById("hrs").innerHTML =hrs ;
-                                    document.getElementById("min").innerHTML =min ;
-                                    document.getElementById("sec").innerHTML =sec ;
+                hrs = hrs%24;
+                min%=60;
+                sec%=60;
+                hrs = (hrs<10) ? "0"+hrs : hrs;
+                min = (min<10) ? "0"+min : min;
+                sec = (sec<10) ? "0"+sec : sec;
+                document.getElementById("days").innerHTML =days ;
+                document.getElementById("hrs").innerHTML =hrs ;
+                document.getElementById("min").innerHTML =min ;
+                document.getElementById("sec").innerHTML =sec ;
 
-                                    setTimeout(countDown,1000);
+                setTimeout(countDown,1000);
 
-                                }
+            }
 
-                                countDown();
-                            </script>
-                        </h4>
+            countDown();
+        </script>
+    </h4>
                     </div>
                 </div>
             </div>
@@ -163,12 +161,12 @@ http://www.templatemo.com/tm-508-power
                             <div class="icon">
                                 <img src="img/first-service-icon.png" alt=""> <!-- Pi Wars adlı başlığın üstündeki resim -->
                             </div>
-                            <h4>Pi Wars</h4>
-                            <br>
-                            <br>
-                            <br>
+                            <h4>Pİ Wars</h4>
+				<br>
+				<br>
+				<br>
                             <p>PiWars, İngiltere Cambridge Üniversitesinde son 4 yıldır düzenlenen uluslararası bir robotik yarışmasıdır. Bu yarışmada katılımcılar Raspberry Pi kullanarak mobil robotlar üretirler. Robotlar yarışmadaki hem otonom hem de uzaktan kumandalı çeşitli görevleri tamamlayarak puan kazanır ve buna göre sıralandırılırlar.</p>
-                
+			    
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -176,12 +174,12 @@ http://www.templatemo.com/tm-508-power
                             <div class="icon">
                                 <img src="img/first-service-icon.png" alt=""> <!-- PiWars Türkiye adlı başlığın üstündeki resim -->
                             </div>
-                            <h4>PiWars Türkİye</h4>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
+                            <h4>PİWars Türkiye</h4>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
                             <p>Hisar CS takımı PiWars etkinliğini İstanbul’a getirerek Türkiye'deki ilk PiWars etkinliğini düzenleyecektir. Yarışma 23 mart tarihinde Hisar Okulları lise binasında gerçekleşecek ve Türkiye çevresinden bütün liselerin katılımına açık olacaktır.</p>
                         </div>
                     </div>
@@ -190,10 +188,10 @@ http://www.templatemo.com/tm-508-power
                             <div class="icon">
                                 <img src="img/third-service-icon.png" alt=""> <!-- Eğitim adlı başlığın üstündeki resim -->
                             </div>
-                            <h4>Eğİtİm</h4>
-                            <br>
-                            <br>
-                            <br>
+                            <h4>Eğitim</h4>
+				<br>
+				<br>
+				<br>
                             <p>PiWars Türkiye etkinliği, yarışmanın yanı sıra bir de eğitim içerecektir. 2 gün sürecek olan eğitimde, yeterli imkanları olmayan okullardan gelen öğrencilere gerekli malzeme sağlanacak ve kendi robotlarını yapmalarına yardım edilecektir. Eğitime katılan takımlar daha sonra yaptıkları robotlarla yarışmaya katılacaktır.</p>
                         </div>
                     </div> 
@@ -207,7 +205,7 @@ http://www.templatemo.com/tm-508-power
                     <div class="col-md-12">
                         <div class="section-heading">
                             <h4>Yarışmalar</h4>
-                            <p>PiWars etkinliğinde hem otonom hem de uzaktan kumandalı görever bulunur. PiWars Türkiye etkinliği için seçtiğimiz görevleri ve kurallarını aşağıda görebilirsiniz. </p><br>
+                            <p>PiWars etkinliğinde hem otonom hem de uzaktan kumandalı görever bulunur. PiWars Türkiye etkinliği için seçtiğimiz görevleri ve kurallarını aşağıda görebilirsiniz. </p>
                             <div class="primary-button">
                                 <a href="htemel/GenelKurallar.html" target="_parent" rel="nofollow">Genel Kurallar ve kısıtlamalar</a> <!-- Genel kuralların yazılması gerekilen site -->
                             </div>
@@ -281,13 +279,16 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="left-text">
                                                     <h4>PiNoon</h4>
                                                     <p>Pinoon, iki robotun birbirleriyle savaştığı interaktif bir yarışmadır. Amaç diğer robota bağlı balonu, kendi robotunuzdaki iğne ile patlatmaktır.  </p>
-                                                </div>
-                                                <div class="col-md-6">   
+                                                    <div class="primary-button">
+                                                        <a href="htemel/Pinoon.html" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6"> 
-                                                <div class="primary-button">
-                                                    <a href="htemel/Pinoon.html" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                            <div class="col-md-6">
+                                                <div class="right-image">
+                                                    <!--
+                                                    <img src="img/right-side-image_1.jpg" alt="">
+                                                -->
                                                 </div>
                                             </div>
                                         </div>
@@ -300,11 +301,16 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="left-text">
                                                     <h4>Obstacle Course</h4>
                                                     <p>Obstacle course'ta robotunuz engebeli bir parkurdan geçmeye çalışır. Bu parkuru en kısa zamanda tamamlayan en çok puan kazanır. </p>
+                                                     <div class="primary-button">
+                                                        <a href="htemel/ObstacleCourse.html" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                 <div class="primary-button">
-                                                    <a href="htemel/ObstacleCourse.html" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                                <div class="right-image">
+                                                    <!--
+                                                    <img src="img/right-side-image_2.jpg" alt="">
+                                                -->
                                                 </div>
                                             </div>
                                         </div>
@@ -317,13 +323,17 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="left-text">
                                                     <h4>Duck Shoot</h4>
                                                     <p>Duck Shoot, karşınızdaki hedefleri bir fırlatma mekanizmasıyla vurduğunuz veya yerdeki bir topu iterek hedefleri devirmeye çalıştığınız bir yarışmadır. </p>
+                                                    <div class="primary-button">
+                                                        <a href="htemel/DuckShoot.html" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="primary-button">
-                                                    <a href="htemel/DuckShoot.html" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                                <div class="right-image">
+                                                    <!--
+                                                    <img src="img/right-side-image_3.jpg" alt="">
+                                                -->
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -335,11 +345,16 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="left-text">
                                                     <h4>Proximity Alert</h4>
                                                     <p>Proximity alert otonom bir görevdir, bir duvara 0.5 metre uzaklıktaki robotunuz, üzerindeki sensörlerle bu duvara çarpmadan olabildiğince yaklaşmaya çalışır. </p>
+                                                    <div class="primary-button">
+                                                        <a href="htemel/ProximityAlert.html" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                 <div class="primary-button">
-                                                    <a href="htemel/ProximityAlert.html" target="_parent" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                                <div class="right-image">
+                                                    <!--
+                                                    <img src="img/right-side-image_4.jpg" alt="">
+                                                -->
                                                 </div>
                                             </div>
                                         </div>
@@ -352,12 +367,17 @@ http://www.templatemo.com/tm-508-power
                                                 <div class="left-text">
                                                     <h4>Line Following</h4>
                                                     <p>Line Following görevinde robotunuz beyaz bir yüzey üstündeki siyah çizgiyi takip eder. Çizginin sonuna en hızlı ve üstünde kalarak tamamlayan robot 1. olur. </p>
+                                                    <div class="primary-button">
+                                                        <a href="htemel/LineFollowing.html" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                                    </div>
 
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <div class="primary-button">
-                                                    <a href="htemel/LineFollowing.html" rel="nofollow">Detaylı bilgi ve Kurallar</a>
+                                                <div class="right-image">
+                                                    <!--
+                                                    <img src="img/right-side-image_5.jpg" alt="">
+                                                    -->
                                                 </div>
                                             </div>
                                         </div>
@@ -382,8 +402,9 @@ http://www.templatemo.com/tm-508-power
                             <br>
                             <br>
                             <p><font size="6" color="white">Ödüller en kısa zamanda açıklanacaktır.</font></p>
-                            </div>
-                        </div>
+                    </div>
+                </div>
+                
                     </div>
                 </div>
             </div>
@@ -411,84 +432,85 @@ http://www.templatemo.com/tm-508-power
                 </div>
             </div>
         </section>
-        
-        <section id="schedule" class="page-section" style="margin-bottom: 45px">
-            <div class="container">
-                <div class = "row">
-                    <div class="section-heading">
-                        <h1 style="color: #00bbe5;text-align: left"><b>Ajanda</b><h1>
-                        <div class="col-md-6">
-                            <h2 style="margin-bottom: 25px; text-align: center;">Cuma</h2>
-                            <div class="col-md-6">
-                                <ul style="text-align: center; font-size: 25px; ">
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>9:30</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>10:15</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>10:30</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>11:15</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>12:15</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>13:00</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>13:45</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>14:00</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>14:45</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>15:00</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>15:30</b></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul style="text-align: left; font-size: 25px">
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Fusion 360</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Fusion 360</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Yemek</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Robot Kodlama</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Robot Kodlama</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Çıkış Konuşması</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Çıkış</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6" >
-                            <h2 style="margin-bottom: 25px; text-align: center;">Cumartesi</h2>
-                            <div class="col-md-6">
-                                <ul style="text-align: center; font-size: 25px; ">
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>9:30</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>10:15</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>10:30</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>11:15</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>12:15</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>13:00</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>13:45</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>14:00</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>14:45</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>15:00</b></li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px"><b>15:30</b></li>
+		
+		<section id="schedule" class="page-section" style="margin-bottom: 45px">
+        	<div class="container">
+        		<div class = "row">
+                	<div class="section-heading">
+                		<h1 style="color: #00bbe5;text-align: left"><b>Ajanda</b><h1>
+                				<div class="col-md-6">
+                						<h2 style="margin-bottom: 25px; text-align: center;">Cuma</h2>
+                					<div class="col-md-6">
+                						<ul style="text-align: center; font-size: 25px; ">
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>9:30</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>10:15</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>10:30</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>11:15</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>12:15</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>13:00</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>13:45</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>14:00</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>14:45</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>15:00</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>15:30</b></li>
 
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul style="text-align: left; font-size: 25px">
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Fusion 360</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Fusion 360</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Yemek</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Robot Kodlama</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Robot Kodlama</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Çıkış Konuşması</li>
-                                    <li style="margin-top: 15px; margin-bottom: 15px">Çıkış</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                						</ul>
+                					</div>
+                					<div class="col-md-6">
+                						<ul style="text-align: left; font-size: 25px">
+                							<li style="margin-top: 15px; margin-bottom: 15px">Fusion 360</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Fusion 360</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Yemek</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Robot Kodlama</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Robot Kodlama</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Çıkış Konuşması</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Çıkış</li>
+                						</ul>
+                					</div>
+                				</div>
+                				<div class="col-md-6" >
+                					<h2 style="margin-bottom: 25px; text-align: center;">Cumartesi</h2>
+                					<div class="col-md-6">
+                						<ul style="text-align: center; font-size: 25px; ">
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>9:30</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>10:15</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>10:30</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>11:15</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>12:15</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>13:00</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>13:45</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>14:00</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>14:45</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>15:00</b></li>
+                							<li style="margin-top: 15px; margin-bottom: 15px"><b>15:30</b></li>
+
+                						</ul>
+                					</div>
+                					<div class="col-md-6">
+                						<ul style="text-align: left; font-size: 25px">
+                							<li style="margin-top: 15px; margin-bottom: 15px">Fusion 360</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Fusion 360</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Yemek</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Robot Kodlama</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Robot Kodlama</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Ara</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Çıkış Konuşması</li>
+                							<li style="margin-top: 15px; margin-bottom: 15px">Çıkış</li>
+                						</ul>
+                					</div>
+                			</div>
+                	</div>
                 </div>
             </div>
         </section>
-
+        <!--<DIV style="position: absolute; top:4400px; left:400px; width:200px; height:25px">80 from the top and 400 from the left</DIV>-->
         <section id= "faq" class="portfolio-section">
         	<div class= "container">
                 <div class = "row">
@@ -519,7 +541,6 @@ http://www.templatemo.com/tm-508-power
             </div>
         </section>
 
-
         <section id="apply" style="margin-bottom: 75px">
             <div class="container">
                 <div class="row">
@@ -533,18 +554,18 @@ http://www.templatemo.com/tm-508-power
                 <div class="row">
                     <div class="col-md-6">
                        <!-- google form test alanı-->
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnx0D7M4aSzJtWeZqDmiaebGm5DJePNZBqpI9E5zWKM1XUmQ/viewform?embedded=true" width="550" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnx0D7M4aSzJtWeZqDmiaebGm5DJePNZBqpI9E5zWKM1XUmQ/viewform?embedded=true" width="550" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
                     </div>
                     <div class="col-md-6">
                         <div id="map">
-    <!-- How to change your own map point
+	<!-- How to change your own map point
             1. Go to Google Maps
             2. Click on your location point
             3. Click "Share" and choose "Embed map" tab
             4. Copy only URL and paste it within the src="" field below
-    -->
+	-->
                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.1253265148594!2d28.890556715085783!3d41.17543361707134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab2efd52f489f%3A0xe7d088ae26b38280!2sHisar+Schools+Culture+Center!5e0!3m2!1sen!2str!4v1537983310756" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
@@ -554,110 +575,110 @@ http://www.templatemo.com/tm-508-power
 
         <section id="bizkimiz" style="margin-right: 150px; margin-left: 150px;margin-bottom: 75px">
             <h2 style="text-align: center;margin-bottom: 50px;font-size: 35px; color: black">Biz Kimiz?</h2>
-            <center>Biz, Hisar Lisesinde okuyan ve Computer Science bölümüne ilgi duyan öğrencileriz.</center>
+			<center>Biz, Hisar Lisesinde okuyan ve Computer Science bölümüne ilgi duyan öğrencileriz.</center>
             <div class="sira1">
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Can.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+ 			 <div class="foto">
+    			<img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
+    			<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Can.</div>
                 </div>
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Emre.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			 <div class="foto">
+   				<img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
+   				<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Emre.</div>
                 </div>
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Emre.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			 <div class="foto">
+   				<img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
+   				<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Emre.</div>
                 </div>
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Can.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			 <div class="foto">
+    			<img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
+    			<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Can.</div>
                 </div>
-             
-            </div>
-            <div class="sira1">
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Can.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			 
+			</div>
+			<div class="sira1">
+ 			 <div class="foto">
+    			<img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
+    			<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Can.</div>
                 </div>
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Forest" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Emre.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			 <div class="foto">
+   				<img src="img/blog-post-3.jpg" alt="Forest" style="width:100%" class="image">
+   				<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Emre.</div>
                 </div>
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Mountains" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Batuhan.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			 <div class="foto">
+    			<img src="img/blog-post-3.jpg" alt="Mountains" style="width:100%" class="image">
+    			<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Batuhan.</div>
                 </div>
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Can.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			 <div class="foto">
+    			<img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
+    			<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Can.</div>
                 </div>
-            </div>
-            <div class="sira1">
-                <div class="foto">
-                <img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Can.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+			</div>
+			<div class="sira1">
+ 			 <div class="foto">
+    			<img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
+    			<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Can.</div>
                 </div>
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Forest" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Emre.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			 <div class="foto">
+   				<img src="img/blog-post-3.jpg" alt="Forest" style="width:100%" class="image">
+   				<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Emre.</div>
                 </div>
-                <div class="foto">
-                <img src="img/blog-post-3.jpg" alt="Mountains" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Batuhan.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			 <div class="foto">
+    			<img src="img/blog-post-3.jpg" alt="Mountains" style="width:100%" class="image">
+    			<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Batuhan.</div>
                 </div>
-                <div class="foto">
-                    <img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
-                    <div class="foto-layer_top">
-                        <div class="text">Merhaba. Benim adım Can.</div>
-                    </div>
-                    <center><font size="4">Emre</font></center>
-                    <center>CEO</center>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+  			   			 <div class="foto">
+    			<img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
+    			<div class="foto-layer_top">
+                  <div class="text">Merhaba. Benim adım Can.</div>
                 </div>
-            </div>
+                <center><font size="4">Emre</font></center>
+                <center>CEO</center>
+  			 </div>
+		  </div>
         </section>
 
 <!--______________________________________________________________________________________________-->
@@ -667,8 +688,8 @@ http://www.templatemo.com/tm-508-power
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
-                        <p>Copyright &copy; 2017 Your Company <br> 
-                        <a href="http://www.templatemo.com/tm-508-power">Power Theme</a> by <a href="http://www.html5max.com" target="_parent">HTML5 Max</a></p>
+                            <p>Copyright &copy; 2017 Your Company <br> 
+                            <a href="http://www.templatemo.com/tm-508-power">Power Theme</a> by <a href="http://www.html5max.com" target="_parent">HTML5 Max</a></p>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <ul class="social-icons">
