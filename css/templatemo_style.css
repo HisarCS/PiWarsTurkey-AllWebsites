@@ -85,12 +85,12 @@ p {
 }
 
 .secondary-button a {
-  padding: 13px 20px;
+  padding: 15px 19px;
   letter-spacing: 0.5px;
   background-color: #f2745f;
   color: #fff;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -254,12 +254,13 @@ p {
   letter-spacing: 2px;
 }
 .banner-content h3 {
-  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-width: 2.1px;
   -webkit-text-stroke-color: black;
   color: #fff;
   font-size: 50px;
   text-transform: uppercase;
   margin-top: -0px;
+  padding-bottom: 20px;
 }
 
 .banner-content ul {
@@ -605,14 +606,10 @@ p {
   color: #7a7a7a;
 }
 
-.what-we-do .tab-content-services .left-text .primary-button {
+.what-we-do .tab-content-services .right-text .primary-button {
   margin-top: 35px;
   margin-bottom: 50px;
 }
-
-
-
-
 
 #portfolio {
   text-align: center;
@@ -1305,4 +1302,19 @@ footer-icons img {
 #myvideo{
   z-index: -1;
   position: relative;
+}
+
+#schedule {
+  background-color: rgba(242, 116, 95, 0.1);
+}
+
+#apply .applicationbuttons a{
+  padding: 13px 20px;
+  letter-spacing: 0.5px;
+  background-color: #46bae2;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
 }
