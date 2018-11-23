@@ -233,7 +233,7 @@ p {
 
 .banner-content {
   text-align: center;
-  padding: 350px 0px 200px 0px;
+  padding: 250px 0px 200px 0px;
 }
 
 .banner-content h6 {
@@ -303,9 +303,195 @@ p {
   margin-top: 45px;
 }
 
+#ContentOfPinoon {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ContentOfPinoon .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  background-color: rgba(134, 142, 150, 0.75);
+}
+
+#ContentOfPinoon .service-item h2 {
+  font-weight: bold
+}
+
+#ContentOfPinoon .service-item h3 {
+  font-weight: bold
+}
+
+#ContentOfPinoon .service-item img {
+  float: right;
+}
+
+#ContentOfPinoon .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfPinoon .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
+
+#ContentOfObstacleCourse {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ContentOfObstacleCourse .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  background-color: rgba(54, 62, 80, 0.75); /*grey*/
+}
+
+#ContentOfObstacleCourse .service-item h2 {
+  font-weight: bold
+}
+
+#ContentOfObstacleCourse .service-item h3 {
+  font-weight: bold
+}
+
+#ContentOfObstacleCourse .service-item img {
+  float: right;
+}
+
+#ContentOfObstacleCourse .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfObstacleCourse .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
+
+#ContentOfProximityAlert {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ContentOfProximityAlert .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  background-color: rgba(242, 116, 95, 0.75); /*red*/
+}
+
+#ContentOfProximityAlert .service-item h2 {
+  font-weight: bold
+  text-color: white;
+}
+
+#ContentOfProximityAlert .service-item h3 {
+  font-weight: bold
+}
+
+#ContentOfProximityAlert .service-item img {
+  float: right;
+}
+
+#ContentOfProximityAlert .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfProximityAlert .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
+
+#ContentOfDuckShoot {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ContentOfDuckShoot .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px; 
+  background-color: rgba(54, 62, 80, 0.75); /*grey*/
+}
+
+#ContentOfDuckShoot .service-item h2 {
+  font-weight: bold
+}
+
+#ContentOfDuckShoot .service-item h3 {
+  font-weight: bold
+}
+
+#ContentOfDuckShoot .service-item img {
+  float: right;
+}
+
+#ContentOfDuckShoot .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfDuckShoot .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
+
+#ContentOfMaze {
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ContentOfMaze .service-item {
+  padding-top: 120px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  background-color: rgba(0, 187, 229, 0);
+}
+
+#ContentOfMaze .service-item h2 {
+  font-weight: bold
+}
+
+#ContentOfMaze .service-item h3 {
+  font-weight: bold
+}
+
+#ContentOfMaze .service-item img {
+  float: right;
+}
+
+#ContentOfMaze .service-item ul {
+  list-style-type:disc
+}
+
+#ContentOfMaze .service-item li {
+  list-style-type:disc
+  text-size: 768px
+}
+
 #about {
   padding: 0px;
-  background-image: url(../img/right-side-image_1.jpg);/*alttaki resmin image srcsi */
+  background-image: url(../img/services-bg.jpg);/*alttaki resmin image srcsi */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -328,7 +514,7 @@ p {
 }
 
 #about .service-item p {
-  margin-bottom: -25px;
+  margin-bottom: 0px;
   color: #fff;
 }
 
@@ -345,7 +531,6 @@ p {
 }
 
 #about .service-item .icon {
-  margin-top: -25px;
   width: 70px;
   height: 70px;
   display: inline-block;
@@ -406,6 +591,10 @@ p {
   margin-top: 60px;
 }
 
+.what-we-do .tab-content-services .right-image img {
+  width: 100%;
+  overflow: hidden;
+}
 
 .what-we-do .tab-content-services .left-text h4 {
   font-size: 22px;
@@ -419,10 +608,9 @@ p {
   color: #7a7a7a;
 }
 
-.what-we-do .tab-content-services .primary-button {
+.what-we-do .tab-content-services .left-text .primary-button {
   margin-top: 35px;
   margin-bottom: 50px;
-  padding-left: 314px;
 }
 
 
