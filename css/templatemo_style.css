@@ -234,8 +234,8 @@ p {
 }
 
 .banner-content h6 {
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
+  /*-webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;*/
   font-size: 22px;
   color: #fff;
   font-weight: 700;
@@ -245,8 +245,8 @@ p {
 }
 
 .banner-content h2 {
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: black;
+  /*-webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black;*/
   font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
@@ -254,8 +254,8 @@ p {
   letter-spacing: 2px;
 }
 .banner-content h3 {
-  -webkit-text-stroke-width: 2.1px;
-  -webkit-text-stroke-color: black;
+  /*-webkit-text-stroke-width: 2.1px;
+  -webkit-text-stroke-color: black;*/
   color: #fff;
   font-size: 50px;
   text-transform: uppercase;
@@ -1143,4 +1143,8 @@ footer-icons img {
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
+}
+
+.background-video {
+  background-color: rgba(62, 62, 62, 0.5);
 }
