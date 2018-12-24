@@ -49,6 +49,9 @@ h5{
     font-weight: 400;
     font-size: 2vw;
 }
+h6{
+    color:white;
+}
 .btn-primary{
     padding-right: 1rem;
     padding-left: 1rem;
@@ -80,9 +83,10 @@ h5{
     padding-top: 4vw;
 }
 
-.infotrio{
+.darksegment{
     background-color: rgb(54, 62, 80);
 }
-.awards{
-    background-color: rgb(54, 62, 80);
+
+.memberPic{
+    width: 80%;
 }
