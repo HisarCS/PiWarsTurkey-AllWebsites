@@ -1,124 +1,28 @@
-jQuery(document).ready(function($) {
+function countDown(){
+    var today = new Date();
+    var eventDate = new Date("March 24,2019 09:00:00");
 
-	'use strict';
+    var currentTime = today.getTime();
+    var eventTime = eventDate.getTime();
 
-    $('.imageGallery1 a').simpleLightbox();
+    var remTime = eventTime - currentTime;
 
+    var sec = Math.floor(remTime/1000);
+    var min = Math.floor(sec/60);
+    var hrs = Math.floor(min/60);
+    var days = Math.floor(hrs/24);
 
-    var owl = $("#owl-portfolio");
+    hrs = hrs%24;
+    min%=60;
+    sec%=60;
+    hrs = (hrs<10) ? "0"+hrs : hrs;
+    min = (min<10) ? "0"+min : min;
+    sec = (sec<10) ? "0"+sec : sec;
+    document.getElementById("days").innerHTML =days ;
+    document.getElementById("hrs").innerHTML =hrs ;
+    document.getElementById("mins").innerHTML =min ;
+    document.getElementById("secs").innerHTML =sec ;
 
-      owl.owlCarousel({
-        
-        pagination : true,
-        paginationNumbers: false,
-        autoPlay: 6000, //Set AutoPlay to 3 seconds
-        items : 4, //10 items above 1000px browser width
-        itemsDesktop : [1000,4], //5 items between 1000px and 901px
-        itemsDesktopSmall : [900,3], // betweem 900px and 601px
-        itemsTablet: [600,2], //2 items between 600 and 0
-        itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
-        
-    });
+    setTimeout(countDown,1000);
 
-
-    $('.tabgroup > div').hide();
-    $('.tabgroup > div:first-of-type').show();
-    $('.tabs a').click(function(e){
-      e.preventDefault();
-        var $this = $(this),
-        tabgroup = '#'+$this.parents('.tabs').data('tabgroup'),
-        others = $this.closest('li').siblings().children('a'),
-        target = $this.attr('href');
-    others.removeClass('active');
-    $this.addClass('active');
-    $(tabgroup).children('div').hide();
-    $(target).show();
-  
-    })
-
-
-	/************** Toggle *********************/
-    // Cache selectors
-    var lastId,
-        topMenu = $(".menu-first"),
-        topMenuHeight = 80,
-        // All list items
-        menuItems = topMenu.find("a"),
-        // Anchors corresponding to menu items
-        scrollItems = menuItems.map(function(){
-          
-          if($(this).hasClass('external')) {
-            return;
-          }
-            
-          var item = $($(this).attr("href"));
-          if (item.length) { return item; }
-        });
-
-    // Bind click handler to menu items
-    // so we can get a fancy scroll animation
-    menuItems.click(function(e){
-      var href = $(this).attr("href"),
-          offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
-      $('html, body').stop().animate({ 
-          scrollTop: offsetTop
-      }, 750);
-      e.preventDefault();
-    });
-
-    // Bind to scroll
-    $(window).scroll(function(){
-       // Get container scroll position
-       var fromTop = $(this).scrollTop()+topMenuHeight;
-       
-       // Get id of current scroll item
-       var cur = scrollItems.map(function(){
-         if ($(this).offset().top < fromTop)
-           return this;
-       });
-       // Get the id of the current element
-       cur = cur[cur.length-1];
-       var id = cur && cur.length ? cur[0].id : "";
-       
-       if (lastId !== id) {
-           lastId = id;
-           // Set/remove active class
-           menuItems
-             .parent().removeClass("active")
-             .end().filter("[href=#"+id+"]").parent().addClass("active");
-       }                   
-    });
-
-
-
-    $(window).scroll(function(){
-         $('.main-header').toggleClass('scrolled', $(this).scrollTop() > 1);
-     });
-
-
-
-    $('a[href="#top"]').click(function(){
-        $('html, body').animate({scrollTop: 0}, 'slow');
-        return false;
-    });
-
-
-    $('.toggle-menu').click(function(){
-        $('.menu-first').toggleClass('show');
-        // $('.menu-first').slideToggle();
-    });
-
-    $('.menu-first li a').click(function(){
-      $('.menu-first').removeClass('show');
-    });
-
-
-    $('a[href*=#]').on('click', function(e) {
-      e.preventDefault();
-      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top -79 }, 500, 'linear');
-    });
-
-
-
-
-});
+}
