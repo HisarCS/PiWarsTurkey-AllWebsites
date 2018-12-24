@@ -49,9 +49,6 @@ h5{
     font-weight: 400;
     font-size: 2vw;
 }
-.row{
-    text-align: center;
-}
 .btn-primary{
     padding-right: 1rem;
     padding-left: 1rem;
@@ -65,7 +62,14 @@ h5{
 .btn-primary:hover{
     background-color: #e2644f;
 }
-
+.btn-secondary{
+    background-color:#46bae2;
+    border:none;
+}
+.btn-secondary:hover{
+    background-color: #36aad2;
+    border:none;
+}
 .counterContainer{
     background-color:#46bae2;
 }
@@ -74,4 +78,11 @@ h5{
     width: 25%;
     padding-bottom: 1vw;
     padding-top: 4vw;
+}
+
+.infotrio{
+    background-color: rgb(54, 62, 80);
+}
+.awards{
+    background-color: rgb(54, 62, 80);
 }
