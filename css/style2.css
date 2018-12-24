@@ -69,3 +69,9 @@ h5{
 .counterContainer{
     background-color:#46bae2;
 }
+
+.texticon{
+    width: 25%;
+    padding-bottom: 1vw;
+    padding-top: 4vw;
+}
