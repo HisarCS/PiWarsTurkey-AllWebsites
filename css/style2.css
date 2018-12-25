@@ -27,40 +27,32 @@
 h1{
     color: white;
     font-weight: 400;
-    font-size: 8vw;
 }
 h2{
     color: white;
     font-weight: 400;
-    font-size: 6vw;
 }
 h3{
     color: white;
     font-weight: 400;
-    font-size: 4vw;
 }
 h4{
     color: #333333;
     font-weight: 400;
-    font-size: 2.5vw;
 }
 h5{
     color: white;
     font-weight: 400;
-    font-size: 2vw;
 }
 h6{
     color:white;
 }
 .btn-primary{
-    padding-right: 1rem;
-    padding-left: 1rem;
     font-weight: 400;
     background-color: #f2745f;
     color: white;
     border: none;
     border-radius: none;
-    font-size: 1.5vw;
 }
 .btn-primary:hover{
     background-color: #e2644f;
