@@ -89,8 +89,8 @@ function remove_all(){
     $('#navbarNav a').each(function () {
         $(this).removeClass("active");
     });
-}
-function onScroll(event){
+    }
+    function onScroll(event){
     var scrollPos = $(document).scrollTop();
     $('#navbarNav a').each(function () {
         var currLink = $(this);

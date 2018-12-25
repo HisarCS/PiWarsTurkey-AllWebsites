@@ -108,3 +108,16 @@ h4 {
     /* (22px / 18px */
   }
 }
+
+h5 {
+    font-size: 1em;
+    /* 1.125x body copy size = 18px */
+    line-height: 1;
+}
+
+@media (min-width: 43.75em) {
+    h5 {
+        line-height: 1.1;
+        /* (22px / 18px */
+    }
+}
