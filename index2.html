@@ -33,7 +33,7 @@
   <!-- PiWarsTurkey main script -->
   <script src="js/main.js"></script>
 </head>
-<body onload="countDown()">
+<body onload="countDown()" data-spy="scroll" data-target="#navbar" data-offset="30">
 <!-- Image and text -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="#">Pi Wars Turkey</a>
@@ -42,7 +42,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="#about">Yarışma Hakkında <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -52,7 +52,7 @@
           <a class="nav-link" href="#schedule">Ajanda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#apply">Başvur</a>
+          <a class="nav-link" href="#register">Başvur</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#faq">SSS</a>
@@ -60,11 +60,14 @@
         <li class="nav-item">
           <a class="nav-link" href="#team">Takimimiz</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Bize Ulasin</a>
+        </li>
       </ul>
     </div>
   </nav>
   <div class="box">
-    <div class="video-container">
+    <div class="video-container" id="about">
       <div class="background-video">
         <video  height="100%" width="100%" autoplay="autoplay" muted="muted" loop="loop" id="myvideo" style="min-height: 40vh;">
           <source src="img/main.mp4" type="video/mp4">
@@ -266,7 +269,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid darksegment justify-content-center" style="text-align:center;">
+    <div class="container-fluid darksegment justify-content-center" style="text-align:center;" id="contact">
       <div class="row p-4">
         <div class="col-12">
           <h3>Bize Ulasin</h3>
@@ -315,7 +318,7 @@
           <a href="https://www.instagram.com/hisarcs/" class="p-2"><img src="img/instagramlogo.png" style="width: 45px; height: 45px"></a>
         </div>
         <div class="col-12 col-md-2 offset-md-1 d-flex flex-column p-0" style="text-align:center;">
-          <a class="back-to-top" href="#">
+          <a class="back-to-top" href="#top">
             <i class="fa fa-angle-up" style="font-size: 3vw;"></i><br>
             Back To Top
           </a>
