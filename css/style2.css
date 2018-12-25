@@ -87,7 +87,9 @@ h6{
 .darksegment{
     background-color: rgb(54, 62, 80);
 }
-
+.greysegment{
+    background-color: rgb(104, 112, 130);
+}
 .memberPic{
     width: 80%;
 }
@@ -107,4 +109,7 @@ h6{
     background-color: #46bae2; 
     margin-bottom:0;
     text-decoration: none;
+}
+.imgBanner{
+    background-image: url(../img/test.jpg);
 }
