@@ -90,3 +90,20 @@ h6{
 .memberPic{
     width: 80%;
 }
+.back-to-top{
+    color: white;
+    align-self:stretch; 
+	width: 100%;
+	height: 100%;
+    background-color: #46bae2; 
+    margin-bottom:0;
+}
+.back-to-top:hover{
+    color: white;
+    align-self:stretch; 
+	width: 100%;
+	height: 100%;
+    background-color: #46bae2; 
+    margin-bottom:0;
+    text-decoration: none;
+}
