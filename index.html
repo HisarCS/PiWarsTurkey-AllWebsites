@@ -1,653 +1,419 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-    	<link rel="shortcut icon" href="img/piturkey.png">
-        <meta charset="utf-8">
-        <title>PiWars Türkiye</title>
-    	<meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- 
-Power Template 
-http://www.templatemo.com/tm-508-power
--->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-        
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/templatemo_misc.css">
-        <link rel="stylesheet" href="css/templatemo_style.css">
-        <link rel="stylesheet" href="css/owl-carousel.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css"> 
-        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script> 
+<head>
+  <title>Pi Wars Turkey</title>
+  <!-- Language Tag -->
+  <meta name="language" content="English"> 
 
-    </head>
-    <body>
-        <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnx0D7M4aSzJtWeZqDmiaebGm5DJePNZBqpI9E5zWKM1XUmQ/viewform?embedded=true" width="640" height="1195" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-        
-        <div class="site-main" id="sTop">
-            <div class="site-header">
-                <div class="main-header">
-                    <div class="container">
-                        <div id="menu-wrapper">
-                            <div class="row">
-                                <nav class="navbar navbar-inverse" role="navigation">
-                                    <div class="navbar-header">
-                                        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                        <a href="#top" class="navbar-brand" >PiWars Turkey</a> <!--Üstteki barın yazdıklarını editler-->
-                                        <div id="main-nav" class="collapse navbar-collapse">
-                                            <ul class="menu-first nav navbar-nav" style="margin-right: 20px;">
-                                                <li><a href="#about">Yarışma Hakkında</a></li>
-                                                <li><a href="#awards">Ödül ve Sponsorlar</a></li>
-                                                <li><a href="#schedule">Ajanda</a></li>
-                                                <!--<li><a href="https://piwars.org/" class="external" target="_parent" rel="nofollow">PiWars Cambridge</a></li> --> 
-                                                <li><a href="#apply">Başvur</a></li>
-                                                <li><a href="#faq">SSS</a></li>
-						                        <li><a href="#bizkimiz">Takımımız</a></li>
-                                            </ul>                                    
-                                        </div> <!-- /.main-menu -->
-                                    </div>
-                                </nav>
-                            </div> <!-- /.row -->
-                        </div> <!-- /#menu-wrapper -->                        
-                    </div> <!-- /.container -->
-                </div> <!-- /.main-header -->
-            </div> <!-- /.site-header -->
-        </div> <!-- /.site-main -->
-        
-        <div class="banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="banner-content">
-                            <h6>Raspberry Pİ Tabanlı Mobİl Robot Yarışması</h6>
-                            <h2>Pİ Wars Türkİye</h2>
-                            <h3>24 Mart 2019</h3>
-                            <ul class="buttons">
-                                <li>
-                                    <div class="secondary-button">
-                                        <a href="#apply">Başvur</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+  <!-- Style Meta Tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <meta name="keywords" content=""/>
+
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified Bootstrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Fonts -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+
+  <!-- Latest Fontawesome CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+  <!-- PiWarsTurkey main stylesheet -->
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/fontsize.css">
+
+  <!-- PiWarsTurkey main script -->
+  <script src="js/main.js"></script>
+
+  <!-- PiWars Favicon -->
+  <link rel="icon" href="https://i0.wp.com/piwars.org/wp-content/uploads/2016/07/cropped-FavIcon.png?fit=32%2C32&amp;ssl=1" sizes="32x32">
+</head>
+<body onload="countDown()" data-spy="scroll" data-target="#navbar" data-offset="30">
+<!-- Image and text -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" style="height: 8vh;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Yarışma Hakkında <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#awards">Ödül ve Sponsorlar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#schedule">Ajanda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#register">Başvur</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#faq">SSS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Takimimiz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Bize Ulasin</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="box">
+    <div class="video-container" id="about">
+      <div class="background-video">
+        <video  height="100%" width="100%" autoplay="autoplay" muted="muted" loop="loop" id="myvideo" style="min-height: 40vh;">
+          <source src="img/main.mp4" type="video/mp4">
+        </video> 
+      </div>
+      <div class="bannerContainer">
+        <h3>Raspberry Pi Tabanlı Mobil Robot Yarışması</h3>
+        <h1>Pi Wars Türkiye</h1>
+        <h2>23 Mart 2019</h2>
+        <a class="btn btn-primary" href="#register">Başvur</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="text-align: center;">
+    <div class="row counterContainer" >
+      <div class="col-3 col-md-2 offset-md-2">
+        <h2 class="row justify-content-center" id="days">24</h2>
+        <h4 class="row justify-content-center">Days</h4>
+      </div>
+      <div class="col-3 col-md-2">
+        <h2 class="row justify-content-center" id="hrs">24</h2>
+        <h4 class="row justify-content-center">Hours</h4>
+      </div>
+      <div class="col-3 col-md-2">
+          <h2 class=" justify-content-center" id="mins">24</h2>
+          <h4 class="row justify-content-center">Minutes</h4>
+      </div>
+      <div class="col-3 col-md-2">
+          <h2 class="row justify-content-center" id="secs">24</h2>
+          <h4 class="row justify-content-center">Seconds</h4>
+        </div>
+    </div>
+    <div class="row justify-content-center darksegment">
+      <div class="col-12 col-md-4 info">
+        <img src="img/piwars.png" class="texticon">
+        <h5>PiWars</h5>
+        <p class="p-4" style="color:#fff;">PiWars, İngiltere Cambridge Üniversitesinde son 4 yıldır düzenlenen uluslararası bir robotik yarışmasıdır. Bu yarışmada katılımcılar Raspberry Pi kullanarak mobil robotlar üretirler. Robotlar yarışmadaki hem otonom hem de uzaktan kumandalı çeşitli görevleri tamamlayarak puan kazanır ve buna göre sıralandırılırlar.</p>
+      </div>
+      <div class="col-12 col-md-4 info">
+        <img src="img/piwarsturkey.png" class="texticon">
+        <h5>PiWars Türkiye</h5>
+        <p class="p-4" style="color:#fff;">Hisar CS takımı PiWars'u İstanbul’a getirerek Türkiye'deki ilk PiWars etkinliğini düzenleyecektir. Yarışma 23 Mart 2019 tarihinde Hisar Okulları lise binasında gerçekleşecek ve Türkiye çevresinden bütün liselerin katılımına açık olacaktır. Ayrıca 22 Mart günü deneme maçları gerçekleşecektir. </p>
+      </div>
+      <div class="col-12 col-md-4 info">
+        <img src="img/education.png" class="texticon">
+        <h5>Eğitim</h5>
+        <p class="p-4" style="color:#fff;">8-9 Şubat tarihlerinde bir Pi Wars eğitimi gerçekleşecektir. Bu eğitimde takımlara programlama, 3D tasarım ve temel elektronik dersleri verilecektir. Ayrıca eğitimde kendi robotlarını yapmak için yeterli imkana sahip olmayan okullara robot kitleri dağıtılacak ve bu takımların da yarışmaya katılmaları amaçlanacaktır.</p>
+      </div>
+    </div>
+    <div class="row p-4 justify-content-center">
+      <div class="col-12 col-md-6">
+        <h3 style="color:#333;">Görevler</h3>
+        <p>PiWars etkinliğinde hem otonom hem de uzaktan kumandalı görever yer alır. Görevler ve kurallarına aşağıdan ulaşabilirsiniz.</p>
+        <a href="kurallar/genel.html" target="_blank" rel="nofollow" class="btn btn-primary">Genel Kurallar ve kısıtlamalar</a> <!-- Genel kuralların yazılması gerekilen site -->
+      </div>
+    </div>
+    <hr>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-1 offset-3 offset-md-2" style="text-align:center;"><img src="img/deneme2.png"></div>
+        <div class="col-12 col-md-7">
+          <h4>PiNoon</h4>
+          <p>Pinoon, iki robotun birbirleriyle savaştığı bir yarışmadır. Amaç diğer robota bağlı balonu, kendi robotunuzdaki iğne ile patlatmaktır.  </p>
+          <a href="kurallar/pinoon.html" target="_blank" rel="nofollow" class="btn btn-secondary">Detaylı Bilgi ve Kurallar</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-6 col-md-1 offset-3 offset-md-2" style="text-align:center;"><img src="img/obstaclecourse2.png"></div>
+        <div class="col-12 col-md-7">
+          <h4>Obstacle Course</h4>
+          <p>Obstacle Course'ta robotunuz bir engebeli bir parkuru tamamlamaya çalışır. Parkuru en hızlı tamamlayabilen robot en çok puan kazanır.</p>
+          <a href="kurallar/obstacle.html" target="_blank" rel="nofollow" class="btn btn-secondary">Detaylı Bilgi ve Kurallar</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-6 col-md-1 offset-3 offset-md-2" style="text-align:center;"><img src="img/duckshoot2.png"></div>
+        <div class="col-12 col-md-7">
+          <h4>Duck Shoot</h4>
+          <p>Duck Shoot, karşınızdaki hedefleri bir fırlatma mekanizmasıyla vurduğunuz veya yerdeki bir topu iterek hedefleri devirmeye çalıştığınız bir görevdir.</p>
+          <a href="kurallar/duck.html" target="_blank" rel="nofollow" class="btn btn-secondary">Detaylı Bilgi ve Kurallar</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-6 col-md-1 offset-3 offset-md-2" style="text-align:center;"><img src="img/proxalert.png"></div>
+        <div class="col-12 col-md-7">
+          <h4>Proximity Alert</h4>
+          <p>Proximity alert görevinde robotunuz otonom bir şekilde bir duvara çarpmadan olabildiğince yaklaşmaya çalışır.</p>
+          <a href="kurallar/proximity.html" target="_blank" rel="nofollow" class="btn btn-secondary">Detaylı Bilgi ve Kurallar</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-6 col-md-1 offset-3 offset-md-2" style="text-align:center;"><img src="img/linefollowing2.png"></div>
+        <div class="col-12 col-md-7">
+          <h4>Maze</h4>
+          <p>Maze görevinde robotunuz bir labirenti otonom bir şekilde en kısa sürede çözmeye çalışır.</p>
+          <a href="kurallar/maze.html" target="_blank" rel="nofollow" class="btn btn-secondary">Detaylı Bilgi ve Kurallar</a>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container-fluid" style="text-align: center;">
+      <div class="row darksegment justify-content-center p-4" id="awards">
+        <div class="col-12">
+          <h3>Ödüller</h3>
+          <img src="img/oduller2.png" style="max-width:80%;"alt="">
+          <h5>Ödüller en kısa zamanda açıklanacaktır.</h5>
+        </div>
+      </div>
+      <div class="row justify-content-center p-4" id="sponsors">
+        <div class="col-12">
+          <h3 style="color:#333;">Sponsorlar</h3>
+          <h5 style="color:#555;">En kısa zamanda bu sayfada açıklanacaktır.</h5>
+          <br>
+          <a href="sponsorlar" class="btn btn-secondary">PiWars'a nasıl sponsor olabilirim?</a>
+        </div>
+      </div>
+      <div class="row darksegment justify-content-center p-4" id="schedule" >
+        <div class="col-12">
+          <h3>Ajanda</h3>
+          <hr style="border-color:#aaa;">
+        </div>
+        <div class="col-12">
+          <h4 style="color:white;" class="pt-4">Egitim</h4>
+          <hr style="border-color:#666;">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h5>8 Subat Cuma</h5>
+              <hr style="border-color:#666;">
+              <ul style="list-style:none; text-align:left; color: #eee;">
+                <li>08:30 - 09:00    &emsp;    Acilis</li>
+                <li>09:00 - 09:50    &emsp;    Raspberry Pi'a Giris</li>
+                <li>09:50 - 10:00    &emsp;    Ara</li>
+                <li>10:00 - 10:50    &emsp;    Programlamaya Giris</li>
+                <li>10:50 - 11:00    &emsp;    Ara</li>
+                <li>11:00 - 11:50    &emsp;    Programlamaya Giris</li>
+                <li>11:50 - 12:00    &emsp;    Ara</li>
+                <li>12:00 - 12:50    &emsp;    Raspberry Pi ile Temel Elektronik</li>
+                <li>12:50 - 13:30    &emsp;    Yemek</li>
+                <li>13:30 - 14:20    &emsp;    Raspberry Pi ile Temel Elektronik</li>
+                <li>14:20 - 14:30    &emsp;    Ara</li>
+                <li>14:30 - 15:20    &emsp;    Raspberry Pi ile Temel Elektronik</li>
+                <li>15:30&thinsp;&thinsp;&emsp;&emsp;&emsp;&emsp;    Cikis</li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h5>9 Subat Cumartesi</h5>
+                <hr style="border-color:#666;">
+                <ul style="list-style:none; text-align:left; color: #eee;">
+                    <li>08:30 - 09:00    &emsp;    Karsilama</li>
+                    <li>09:00 - 09:50    &emsp;    3 Boyutlu Tasarim'a Giris</li>
+                    <li>09:50 - 10:00    &emsp;    Ara</li>
+                    <li>10:00 - 10:50    &emsp;    Robot Kiti Kurulumu</li>
+                    <li>10:50 - 11:00    &emsp;    Ara</li>
+                    <li>11:00 - 11:50    &emsp;    Robotlarin Kodlanmasi</li>
+                    <li>11:50 - 12:00    &emsp;    Ara</li>
+                    <li>12:00 - 12:50    &emsp;    Robotlarin Kodlanmasi</li>
+                    <li>12:50 - 13:30    &emsp;    Yemek</li>
+                    <li>13:30 - 14:20    &emsp;    Robotlar Uzerinde Calisma</li>
+                    <li>14:20 - 14:30    &emsp;    Ara</li>
+                    <li>14:30 - 15:10    &emsp;    Robotlarin Parkurlarda Denenmesi</li>
+                    <li>15:10 - 15:30    &emsp;    Kapanis</li>
+                    <li>15:30&thinsp;&thinsp;&emsp;&emsp;&emsp;&emsp;    Cikis</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <h4 style="color:white;" class="pt-4">Yarisma</h4>
+          <hr style="border-color:#666;">
+          <div class="row">
+              <div class="col-12 col-lg-6">
+                <h5>23 Mart Cumartesi</h5>
+                <hr style="border-color:#666;">
+                <ul style="list-style:none; text-align:left; color: #eee;">
+                    <li>09:00 - 09:30    &emsp;    Kayitlar</li>
+                    <li>09:30 - 13:00    &emsp;    Deneme Maclari</li>
+                    <li>13:00 - 14:00    &emsp;    Yemek</li>
+                    <li>14:00 - 15:30    &emsp;    Deneme Maclari</li>
+                    <li>15:30&thinsp;&thinsp;&emsp;&emsp;&emsp;&emsp;    Cikis</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-6">
+                  <h5>8 Subat Cuma</h5>
+                  <hr style="border-color:#666;">
+                  <ul style="list-style:none; text-align:left; color: #eee;">
+                      <li>09:00 - 09:30    &emsp;    Kayitlar ve Yerlesme</li>
+                      <li>09:30 - 10:00    &emsp;    Acilis Seremonisi</li>
+                      <li>10:00 - 13:00    &emsp;    Maclar</li>
+                      <li>13:00 - 14:00    &emsp;    Yemek</li>
+                      <li>14:00 - 16:30    &emsp;    Maclar</li>
+                      <li>16:30 - 17:30    &emsp;    Kapanis Konusmasi ve Odul Toreni</li>
+                      <li>15:30&thinsp;&thinsp;&emsp;&emsp;&emsp;&emsp;    Cikis</li>
+                  </ul>
                 </div>
             </div>
         </div>
-        <div class="background-video">
-        	<video  height="100%" width="100%" autoplay="autoplay" muted="muted" loop="loop" id="myvideo">
-        		<source src="img/main.mp4" type="video/mp4">
-        	</video> 
+      </div>
+      <div class="row justify-content-center p-4" id="register">
+        <div class="col-12 col-md-8">
+          <h3 style="color:#333;">Başvur</h3><br>
+          <p>PiWars 2019 başvuru formlarına aşağıdan ulaşabilirsiniz. Görevli öğretmen de dahil olmak üzere her takım üyesi için bir form doldurmanız gerektiğini hatırlatmak isteriz. </p>
+          <br>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvWsnPJu7egl1QsA0kZbykoSGZTrN2w9gdX5ZRsI_WY6awmg/viewform?embedded=true" width="100%;" max-width="100%" height="450" frameborder="0" max-height="450" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
+      </div>
 
-        <div class="intro">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">                  
-                        <h4><table class="container">
-            <tr class="info">
-                <td id="days"></td>
-                <td id="hrs"></td>
-                <td id="min"></td>
-                <td id="sec"></td>
-            </tr>
-            <tr>
-                <td><font size="6"><b><div class="day">Days</div></b></font></td>
-                <td><font size="6"><b><div class="day">Hours</div></b></font></td>
-                <td><font size="6"><b><div class="day">Minutes</div></b></font></td>
-                <td><font size="6"><b><div class="day">Seconds</div></b></font></td>
-            </tr>
-            
-        </table>
-        <script type="text/javascript"> <!--countdown clock için javascript kodu-->
-            function countDown()
-            {
-                var today = new Date();
-                var eventDate = new Date("March 24,2019 09:00:00");
-
-                var currentTime = today.getTime();
-                var eventTime = eventDate.getTime();
-
-                var remTime = eventTime - currentTime;
-
-                var sec = Math.floor(remTime/1000);
-                var min = Math.floor(sec/60);
-                var hrs = Math.floor(min/60);
-                var days = Math.floor(hrs/24);
-
-                hrs = hrs%24;
-                min%=60;
-                sec%=60;
-                hrs = (hrs<10) ? "0"+hrs : hrs;
-                min = (min<10) ? "0"+min : min;
-                sec = (sec<10) ? "0"+sec : sec;
-                document.getElementById("days").innerHTML =days ;
-                document.getElementById("hrs").innerHTML =hrs ;
-                document.getElementById("min").innerHTML =min ;
-                document.getElementById("sec").innerHTML =sec ;
-
-                setTimeout(countDown,1000);
-
-            }
-
-            countDown();
-        </script>
-    </h4>
-                    </div>
-                </div>
-            </div>
+      <div class="row darksegment justify-content-center p-4" style="text-align: left;" id="faq">
+        <h3 style="text-align:center;" class="col-12 p-4">Sıkça Sorulan Sorular</h3>
+        <div class="col-12 col-md-3 m-4">
+          <h6>Eğitime katılmak zorunlu mudur?</h6>
+          <hr style="border-color: #666;">
+          <p style="color:#eee;">Eğitime katılmak zorunlu değildir ancak her takım için tavsiye edilmektedir.</p>
         </div>
-
-
-        <section id="about" class="page-section">
-            <!--<div class="container-fluid">-->
-                <div class="row"> 
-                    <div class="col-md-4">
-                        <div class="service-item first-service">
-                            <div class="icon">
-                                <!-- Bu kısmı github a commit et, img srcler değişti img leri yükle ve style eklendi -->
-                                <img src="img/piwars.png" alt="" style="width: 75px; height: 75px;"> <!-- Pi Wars adlı başlığın üstündeki resim -->
-                            </div>
-                            <h4>Pİ Wars</h4>
-
-                            <p>PiWars, İngiltere Cambridge Üniversitesinde son 4 yıldır düzenlenen uluslararası bir robotik yarışmasıdır. Bu yarışmada katılımcılar Raspberry Pi kullanarak mobil robotlar üretirler. Robotlar yarışmadaki hem otonom hem de uzaktan kumandalı çeşitli görevleri tamamlayarak puan kazanır ve buna göre sıralandırılırlar.</p>
-			    
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-item second-service">
-                            <div class="icon">
-                                <img src="img/piwarsturkey.png" alt="" style="width: 75px; height: 75px;"> <!-- PiWars Türkiye adlı başlığın üstündeki resim -->
-                            </div>
-                            <h4>PİWars Türkİye</h4>
-
-                            <p>Hisar CS takımı PiWars etkinliğini İstanbul’a getirerek Türkiye'deki ilk PiWars etkinliğini düzenleyecektir. Yarışma 24 Mart 2019 tarihinde Hisar Okulları lise binasında gerçekleşecek ve Türkiye çevresinden bütün liselerin katılımına açık olacaktır. Yarışmaya katılmak için Başvur kısmındaki formu doldurmanız gerekmektedir.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="service-item third-service">
-                            <div class="icon">
-                                <img src="img/education.png" alt="" style="width: 75px; height: 75px;"> <!-- Eğitim adlı başlığın üstündeki resim -->
-                            </div>
-                            <h4>Eğİtİm</h4>
-                            <p>PiWars Türkiye etkinliği, yarışmanın yanı sıra bir de eğitim içerecektir. 2 gün sürecek olan eğitimde, yeterli imkanları olmayan okullardan gelen öğrencilere gerekli malzeme sağlanacak ve kendi robotlarını yapmalarına yardım edilecektir. Eğitime katılan takımlar daha sonra yaptıkları robotlarla yarışmaya katılacaktır.</p>
-                        </div>
-                    </div> 
-                </div>
+        <div class="col-12 col-md-3 m-4">
+          <h6>Kimlere robot kiti verilecektir?</h6>
+          <hr style="border-color: #666;">
+          <p style=" color:#eee;">Elimizde 12 adet robot kiti bulunmaktadır. Sadece gerçekten desteğe ihtiyacı olan takımlara robot kiti dağıtılacaktır. Diğer takımlara ise eğitim süresinde kullanmaları için malzemeler sağlanacaktır.</p>
+        </div>
+        <div class="col-12 col-md-3 m-4">
+          <h6>Takımlar kaçar kişiden oluşmalıdır?</h6>
+          <hr style="border-color: #666;">
+          <p style="color:#eee;">Üçer kişiden oluşan takımlar tavsiye edilmektedir. </p>
+        </div>
+        <div class="col-12 col-md-3 m-4">
+          <h6>Deneme maçlarına katılmak zorunlu mudur?</h6>
+          <hr style="border-color: #666;">
+          <p style="color:#eee;">Hayır, o gün gelmeyebilir veya gelip robotunuz üzerinde çalışabilirsiniz</p>
+        </div>
+        <div class="col-12 col-md-3 m-4">
+          <h6>Eğitimden sonra katılan takımlara bir destek sağlanacak mıdır?</h6>
+          <hr style="border-color: #666;">
+          <p style="color:#eee;">Evet, mentorlarımız takımlar ile iletişimde olacak ve takımlar okulumuzdaki 3d printer ve laser cutter gibi imkanlardan faydalanabileceklerdir.</p>
+        </div>
+        <div class="col-12 col-md-3 m-4">
+          <h6>Bir katılım ücreti var mıdır?</h6>
+          <hr style="border-color: #666;">
+          <p style="color:#eee;">Hayır, bütün etkinlik ücretsiz olacaktır.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center p-4" id="team">
+        <h3 style="color:#333;">Biz Kimiz?</h3>
+      </div>
+      <div class="row justify-content-center p-4" style="text-align:center;">
+        <div class="col-12 col-md-4 p-4">
+          <div class="memberCard">
+            <img src="img/canersoz.jpeg" class="memberPic">
+            <h5 style="color:#555;">Can Ersoz</h5>
+            <h6 style="color:#333;">Bos isler muduru</h6>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 p-4">
+          <div class="memberCard">
+            <img src="img/canersoz.jpeg" class="memberPic">
+            <h5 style="color:#555;">Can Ersoz</h5>
+            <h6 style="color:#333;">Bos isler muduru</h6>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 p-4">
+          <div class="memberCard">
+            <img src="img/canersoz.jpeg" class="memberPic">
+            <h5 style="color:#555;">Can Ersoz</h5>
+            <h6 style="color:#333;">Bos isler muduru</h6>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 p-4">
+          <div class="memberCard">
+            <img src="img/canersoz.jpeg" class="memberPic">
+            <h5 style="color:#555;">Can Ersoz</h5>
+            <h6 style="color:#333;">Bos isler muduru</h6>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 p-4">
+          <div class="memberCard">
+            <img src="img/canersoz.jpeg" class="memberPic">
+            <h5 style="color:#555;">Can Ersoz</h5>
+            <h6 style="color:#333;">Bos isler muduru</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid darksegment justify-content-center" style="text-align:center;" id="contact">
+      <div class="row p-4">
+        <div class="col-12">
+          <h3>Bize Ulasin</h3>
+          <hr>
+        </div>
+        <div class="col-12 col-md-6 pb-4"  style="color: white;">
+          <h5>Iletisim</h5>
+          <div class="row justify-content-center">
+            <div class="col-1" style="text-align:right;">
+              <i class="fa fa-envelope"></i>
             </div>
-        </section>
-
-        <div class="second-tabs-content what-we-do">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-heading">
-                            <h4>Yarışmalar</h4>
-                            <br>
-                            <p>PiWars etkinliğinde hem otonom hem de uzaktan kumandalı görever bulunur. PiWars Türkiye etkinliği için seçtiğimiz görevleri ve kurallarını aşağıda görebilirsiniz. </p>
-                            <br>
-                            <div class="primary-button">
-                                <a href="htemel/GenelKurallar.html" target="_parent" rel="nofollow">Genel Kurallar ve kısıtlamalar</a> <!-- Genel kuralların yazılması gerekilen site -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="wrapper">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <ul class="tabs clearfix" data-tabgroup="second-tab-group">
-                                    <li class="col-md-15 col-sm-12 col-xs-12">
-                                        <a href="#unique" class="active">
-                                            <div class="list-item">
-                                                <div class="icon">
-                                                    <img src="img/deneme2.png" alt=""> <!-- PiNoon resmi -->
-                                                </div>
-                                                <h4>PiNoon</h4>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="col-md-15 col-sm-12 col-xs-12">
-                                        <a href="#theme">
-                                            <div class="list-item">
-                                                <div class="icon">
-                                                    <img src="img/obstaclecourse2.png" alt="">
-                                                </div>
-                                                <h4>Obstacle Course</h4>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="col-md-15 col-sm-12 col-xs-12">
-                                        <a href="#translation">
-                                            <div class="list-item">
-                                                <div class="icon">
-                                                    <img src="img/duckshoot2.png" alt="">
-                                                </div>
-                                                <h4>Duck Shoot</h4>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="col-md-15 col-sm-12 col-xs-12">
-                                        <a href="#event">
-                                            <div class="list-item">
-                                                <div class="icon">
-                                                    <img src="img/proxalert.png" alt="">
-                                                </div>
-                                                <h4>Proximity Alert</h4>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="col-md-15 col-sm-12 col-xs-12">
-                                        <a href="#photo">
-                                            <div class="list-item">
-                                                <div class="icon">
-                                                    <img src="img/linefollowing2.png" alt="">
-                                                </div>
-                                                <h4>Maze</h4>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <section id="second-tab-group" class="tabgroup">
-                                <div id="unique">
-                                    <div class="row">
-                                        <div class="tab-content-services">
-                                            <div class="col-md-6">
-                                                <div class="left-text">
-                                                    <h4>PiNoon</h4>
-                                                    <p>Pinoon, iki robotun birbirleriyle savaştığı interaktif bir yarışmadır. Amaç diğer robota bağlı balonu, kendi robotunuzdaki iğne ile patlatmaktır.  </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="right-image">
-                                                    <div class="primary-button">
-                                                        <a href="htemel/Pinoon.html" target="_parent" rel="nofollow">Detaylı bİlgİ ve Kurallar</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="theme">
-                                    <div class="row">
-                                        <div class="tab-content-services">
-                                            <div class="col-md-6">
-                                                <div class="left-text">
-                                                    <h4>Obstacle Course</h4>
-                                                    <p>Obstacle course'ta robotunuz engebeli bir parkurdan geçmeye çalışır. Bu parkuru en kısa zamanda tamamlayan en çok puan kazanır. </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="right-image">
-                                                     <div class="primary-button">
-                                                        <a href="htemel/ObstacleCourse.html" target="_parent" rel="nofollow">Detaylı bİlgİ ve Kurallar</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="translation">
-                                    <div class="row">
-                                        <div class="tab-content-services">
-                                            <div class="col-md-6">
-                                                <div class="left-text">
-                                                    <h4>Duck Shoot</h4>
-                                                    <p>Duck Shoot, karşınızdaki hedefleri bir fırlatma mekanizmasıyla vurduğunuz veya yerdeki bir topu iterek hedefleri devirmeye çalıştığınız bir yarışmadır. </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="right-image">
-                                                    <div class="primary-button">
-                                                        <a href="htemel/DuckShoot.html" rel="nofollow">Detaylı bİlgİ ve Kurallar</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="event">
-                                    <div class="row">
-                                        <div class="tab-content-services">
-                                            <div class="col-md-6">
-                                                <div class="left-text">
-                                                    <h4>Proximity Alert</h4>
-                                                    <p>Proximity alert otonom bir görevdir, bir duvara 0.5 metre uzaklıktaki robotunuz, üzerindeki sensörlerle bu duvara çarpmadan olabildiğince yaklaşmaya çalışır. </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="right-image">
-                                                    <div class="primary-button">
-                                                        <a href="htemel/ProximityAlert.html" target="_parent" rel="nofollow">Detaylı bİlgİ ve Kurallar</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="photo">
-                                    <div class="row">
-                                        <div class="tab-content-services">
-                                            <div class="col-md-6">
-                                                <div class="left-text">
-                                                    <h4>Maze</h4>
-                                                    <p>Maze görevinde, robotunuz bir labirenti otonom bir şekilde en kısa sürede çözmeye çalışır.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="right-image">
-                                                    <div class="primary-button">
-                                                        <a href="htemel/LineFollowing.html" rel="nofollow">Detaylı bİlgİ ve Kurallar</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-6"style="text-align:left;">
+              piwarsturkey@gmail.com
+            </div>
+          </div>
+          <div class="row pt-2 justify-content-center">
+            <div class="col-1" style="text-align:right;">
+              <i class="fa fa-phone"></i>
+            </div>
+            <div class="col-6"style="text-align:left;">
+              (0212) 364 00 00
+            </div>
+          </div>
+          <div class="row pt-2 justify-content-center">
+              <div class="col-1" style="text-align:right;">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="col-6"style="text-align:left;">
+                  Göktürk Merkez Mahallesi, İstanbul Cd. No:3
+              </div>
             </div>
         </div>
-
-
-        <section id="awards" class="portfolio-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-heading">
-                            <h2><font size="36" color="white">Ödüller</font></h2>
-                            <br>
-                            <img src="img/oduller2.png" alt="">
-                            <br>
-                            <br>
-                            <p><font size="6" color="white">Ödüller en kısa zamanda açıklanacaktır.</font></p>
-                    </div>
-                </div>
-                
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="sponsors" id="blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-heading">
-                            <h2><font size="36" color="black">Sponsorlar</font></h2>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <p><font size="6" color="black">En kısa zamanda bu sayfada açıklanacaktır.</font></p>
-                            <br>
-                            <br>
-                            <div class="primary-button">
-                            <a href="htemel/sponsor.html" class="external" target="_parent" rel="nofollow">PiWars'a nasıl sponsor olabilirim?</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-		
-		<section id="schedule" class="page-section" style="margin-top: 0">
-        	<div class="container">
-        		<div class = "row">
-                	<div class="section-heading">
-        				<div class="col-md-12">
-        				   <img src="img/PiWarsSchedule.png" style="width:1200px; height: 840px;" class="image" style="margin-bottom: 75px">
-                		</div>
-                	</div>
-                </div>
-            </div>
-        </section>
-        <!--<DIV style="position: absolute; top:4400px; left:400px; width:200px; height:25px">80 from the top and 400 from the left</DIV>-->
-        
-
-        <section id="apply" style="margin-bottom: 75px">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-heading">
-                            <h4>Başvur</h4>
-                            <br>
-                            <p>PiWars 2019 başvuru formlarına aşağıdan ulaşabilirsiniz. Eğitime katılmak isteyenlerin yarışmaya da katılmaları beklendiği için sadece eğitim formunu doldurmaları yeterlidir. Görevli öğretmen de dahil olmak üzere her takım üyesi için bir form doldurmanız gerektiğini hatırlatmak isteriz. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvWsnPJu7egl1QsA0kZbykoSGZTrN2w9gdX5ZRsI_WY6awmg/viewform?embedded=true" width="550" height="450" frameborder="0" max-height="450" marginheight="0" marginwidth="0">Loading...</iframe>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="map">
-	<!-- How to change your own map point
-            1. Go to Google Maps
-            2. Click on your location point
-            3. Click "Share" and choose "Embed map" tab
-            4. Copy only URL and paste it within the src="" field below
-	-->
-                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.1253265148594!2d28.890556715085783!3d41.17543361707134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab2efd52f489f%3A0xe7d088ae26b38280!2sHisar+Schools+Culture+Center!5e0!3m2!1sen!2str!4v1537983310756" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-<section id= "faq" class="portfolio-section">
-            <div class= "container">
-                <div class = "row">
-                    <div class="section-heading">
-                        <h1 style="color: #00bbe5;text-align: left"><b>Sıkça Sorulan Sorular</b><h1>
-                                <div class="col-md-6">
-                                	<div class="faqBlock1 ">
-                                            <span class="question" style="color:#363e50">Eğitime kimlerin katılması tavsiye edilmektedir?</span>
-                                            <span class="answer" style="color:#363e50">Eğitime sadece kendi robotlarını yapmak için yeterli imkana sahip olmayan okulların başvurması teşvik edilmektedir.</span>
-                                        </div>
-                                        <div class="faqBlock">
-                                            <span class="question" style="color:#363e50">Eğitime katılmak için önceden bir robotik tecrübesine ihtiyaç var mı?</span>
-                                            <span class="answer" style="color:#363e50">Hayır, eğitimdeki herkesin hiçbir şey bilmediği varsayılacaktır. </span>
-                                        </div>
-                                	</div>
-                                
-                                <div class="col-md-6">
-                                	<div class="faqBlock">
-                                            <span class="question" style="color:#363e50">Eğitime katılan takımlar kaçar kişiden oluşmalıdır?</span>
-                                            <span class="answer" style="color:#363e50">Bir takımın 3 kişiden oluşması hedeflenmektedir.</span>
-                                        </div>
-                                        <div class="faqBlock">
-                                            <span class="question" style="color:#363e50">Eğitime katılmadan sadece yarışmaya katılabilir miyim?</span>
-                                            <span class="answer" style="color:#363e50">Tabi ki! </span>
-                           				</div>
-                                </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="bizkimiz" style="margin-right: 150px; margin-left: 150px;margin-bottom: 75px">
-            <h2 style="text-align: center;margin-bottom: 50px;font-size: 35px; color: black">Biz Kimiz?</h2>
-            <div class="sira1">
- 			 <div class="foto">
-    			<img src="img/liora.jpeg" alt="Snow" style="width:250px; height: 250px;" class="image">
-    			<!--<div class="foto-layer_top">
-                  <div class="text">liora.nasi@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Liora Nasi</font></center>
-                <center><!--Görevin geldiği yer--></center>
-  			 </div>
-  			 <div class="foto">
-   				<img src="img/duncu.jpeg" alt="Snow" style="width:250px; height: 250px;" class="image">
-   				<!--<div class="foto-layer_top">
-                  <div class="text">deniz.uncu@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Deniz Uncu</font></center>
-                <center><!--Görevin geldiği yer--></center>
-  			 </div>
-  			 <div class="foto">
-   				<img src="img/selinoner.jpeg" alt="Snow" style="width: 250px; height: 250px;" class="image">
-   				<!--<div class="foto-layer_top">
-                  <div class="text">selin.oner@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Selin Öner</font></center>
-                <center><!--Görevin geldiği yer--></center>
-  			 </div>
-  			 <div class="foto">
-    			<img src="img/canersoz.jpeg" alt="Snow" style="width: 250px; height: 250px;" class="image">
-    			<!--<div class="foto-layer_top">
-                  <div class="text">can.ersoz@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Can Ersöz</font></center>
-                <center><!--Görevin geldiği yer--></center>
-  			 </div>
-  			 
-			</div>
-			<div class="sira1">
- 			 <div class="foto">
-    			<img src="img/batuhan.jpeg" alt="Snow" style="width: 250px; height: 250px;" class="image">
-    			<!--<div class="foto-layer_top">
-                  <div class="textbat">batuhan.bayraktar@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Batuhan Bayraktar</font></center>
-                <center><!--Görevin geldiği yer--></center>
-  			 </div>
-  			 <div class="foto">
-   				<img src="img/emreotay.jpeg" alt="Forest" style="width: 250px; height: 250px;" class="image">
-   				<!--<div class="foto-layer_top">
-                  <div class="text">emre.otay@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Emre Otay</font></center>
-                <center><!--Görevin geldiği yer--></center>
-  			 </div>
-  			 <div class="foto">
-    			<img src="img/nadintamer.jpeg" alt="Mountains" style="width: 250px; height: 250px;" class="image">
-    			<!--<div class="foto-layer_top">
-                  <div class="text">nadin.tamer@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Nadin Tamer</font></center>
-                <center><!--Görevin geldiği yer--></center>
-  			 </div>
-  			 <div class="foto">
-    			<img src="img/canaydin.jpeg" alt="Snow" style="width: 250px; height: 250px;" class="image">
-    			<!--<div class="foto-layer_top">
-                  <div class="text">can.aydin@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Can Aydin</font></center>
-                <center><!--Görevin geldiği yer--></center>
-  			 </div>
-			</div>
-            
-			<div class="sira1">
- 			 <div class="foto">
-    			<img src="img/ben.jpeg" alt="Snow" style="width: 250px; height: 250px;" class="image">
-    			<!--<div class="foto-layer_top">
-                  <div class="text">emre.cagin@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Emre Çağın</font></center>
-                <center></center>
-  			 </div>
-  			 <div class="foto">
-   				<img src="img/umutolmez.jpeg" alt="Forest" style="width: 250px; height: 250px;" class="image">
-   				<!--<div class="foto-layer_top">
-                  <div class="text">umut.olmez@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Umut Ölmez</font></center>
-                <center></center>
-  			 </div>
-  			 <div class="foto">
-    			<img src="img/yoelkastro.jpeg" alt="Mountains" style="width: 250px; height: 250px;" class="image">
-    			<!--<div class="foto-layer_top">
-                  <div class="text">yoel.kastro@ggl.hisarschool.k12.tr</div>
-                </div>-->
-                <center><font size="4">Yoel Kastro</font></center>
-                <center></center>
-  			 </div>
-             <!--
-  			   			 <div class="foto">
-    			<img src="img/blog-post-3.jpg" alt="Snow" style="width:100%" class="image">
-    			<div class="foto-layer_top">
-                  <div class="text">Merhaba. Benim adım Can.</div>
-                </div>
-                <center><font size="4">Emre</font></center>
-                <center>Görev</center>
-  			 </div>
-            -->
-		  </div>
-        
-        </section>
-
-<!--______________________________________________________________________________________________-->
-
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                            <p>Copyright &copy; 2018 HisarCS <br> 
-                            <a href="http://www.templatemo.com/tm-508-power">Power Theme</a> by <a href="http://www.html5max.com" target="_parent">HTML5 Max</a></p>
-                    </div>
-                    <div class="col-md-4 col-sm-12">
-                        <ul class="social-icons">
-                            <li><a href="https://www.facebook.com/hisarcs"><img src="img/facebooklogo.png" style="width: 45px; height: 45px"></a></li>
-                            <li><a href="https://www.facebook.com/hisarcs"><a href="#"><img src="img/Twitterlogo.png" style="width: 45px; height: 45px"></a></a></li>
-                            <!--<li><a href="#"><a href="#"><img src="img/LinkedInlogo.png" style="width: 45px; height: 45px"></a></a></li>-->
-                            <li><a href="https://www.instagram.com/hisarcs/"><a href="#"><img src="img/instagramlogo.png" style="width: 45px; height: 45px"></a></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 col-md-offset-2 col-sm-12">
-                        <div class="back-to-top">
-                            <a href="#top">
-                                <i class="fa fa-angle-up"></i>
-                                back to top
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        
-        <script src="js/vendor/jquery-1.11.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Map -->
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script src="js/vendor/jquery.gmap3.min.js"></script>
-
-        <script type="text/javascript">
-        $(document).ready(function() {
-            
-            // mobile nav toggle
-            $('#nav-toggle').on('click', function (event) {
-                event.preventDefault();
-                $('#main-nav').toggleClass("open");
-            });
-        });
-        </script>
-        
-        <!-- templatemo 406 flex -->
-    </body>
-</html>
+        <div class="col-12 col-md-6">
+          <h5>Harita</h5>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.1253265148594!2d28.890556715085783!3d41.17543361707134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab2efd52f489f%3A0xe7d088ae26b38280!2sHisar+Schools+Culture+Center!5e0!3m2!1sen!2str!4v1537983310756" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content-center p-0" style="text-align: center;">
+        <div class="col-12 col-md-3 p-4">
+          Copyright &copy 2018 Hisar CS
+        </div>
+        <div class="col-12 col-lg-3 col-md-4 p-4">
+          <a href="https://www.facebook.com/hisarcs" class="p-2"><img src="img/facebooklogo.png" style="width: 45px; height: 45px"></a>
+          <a href="https://www.facebook.com/hisarcs" class="p-2"><img src="img/Twitterlogo.png" style="width: 45px; height: 45px"></a>
+          <a href="https://www.instagram.com/hisarcs/" class="p-2"><img src="img/instagramlogo.png" style="width: 45px; height: 45px"></a>
+        </div>
+        <div class="col-12 col-md-2 offset-md-1 d-flex flex-column p-0" style="text-align:center;">
+          <a class="back-to-top" href="#top">
+            <i class="fa fa-angle-up" style="font-size: 3vw;"></i><br>
+            Back To Top
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
