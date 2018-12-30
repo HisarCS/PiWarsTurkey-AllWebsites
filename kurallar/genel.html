@@ -62,38 +62,55 @@
   </nav>
   <div class="container-fluid imgBanner" style="text-align: center; padding-top:10vh; padding-bottom: 10vh;">
     <h1>Genel Kurallar</h1>
-    <h3>Lütfen kuralları dikkatlice okuyunuz. /h3>
+    <h3>Lütfen kuralları dikkatlice okuyunuz. </h3>
   </div>
   <div class="container-fluid greysegment p-4">
     <div class="row justify-content-center">
       <div class="col-12 col-md-4">
-        <img src="../img/balonsavaşı.jpg" style="width:100%;">
+        <img src="../img/GeneralRules.png" style="width:100%;">
       </div>
       <div class="col-12 col-md-4">
         <h3>Takım Kuralları</h3>
-        <p>1. 18 yaşının altındaki yarışmacılar sorumlu bir öğretmen ile birlikte katılmalıdır. </p>
-        <p>2. Eğitime katılan takımların yarışmaya da katılması beklenmektedir. </p>
-        <p>3. Takımlar üçer kişiden oluşmalıdır.  </p>
-        <p>4. Tüm robotlar kapalı veya çalışma odalarında blokların üzerinde kalmalıdır. Bu, sürücü kontrolü karışıklıkları veya otonom/sürücü kontrolü hatalarının robotun masadan düşmesine, veya herhangi bir şekilde zarar görmesini engellemek için yapılır. </p>
-        <h3>Kontrol Metodu</h3>
-        <p>Uzaktan Kumanda</p>
-        <h3>Sure</h3>
-        <p>Duello basina 3 dakika</p>
+        <p>* 18 yaşının altındaki yarışmacılar sorumlu bir öğretmen ile birlikte katılmalıdır. </p>
+        <p>* Eğitime katılan takımların yarışmaya da katılması beklenmektedir. </p>
+        <p>* Takımlar üçer kişiden oluşmalıdır.  </p>
+        <p>* Tüm robotlar kapalı veya çalışma odalarında blokların üzerinde kalmalıdır. Bu, sürücü kontrolü karışıklıkları veya otonom/sürücü kontrolü hatalarının robotun masadan düşmesine, veya herhangi bir şekilde zarar görmesini engellemek için yapılır. </p>
       </div>
       <div class="col-12 col-md-8">
-        <h3 style="text-align: center;">Kurallar</h3>
-        <p>
-            İki robot, operatörün sürüş becerilerini ve robotun manevra kabiliyetini test edecek tahribatsız bir düelloda birbirleriyle karşı karşıya gelecek.
-            Karşı takımın robotuna takılan balonları patlatmak için, robotlara takılan metal telin ucundaki iğneler kullanılmalıdır.
-            Duellolar, robotların sahayı terk etmesini engellemek için, etrafı kısa duvarlarla çevrili bir arenada yapılacaktır.
-            Yarışmacılar arenaya hiç bir zamanda giremezler. Kablo bağlantılarıyla ilgili herhangi bir işlem için robotların sahanın kenarlarına sürülmesi gerekir. Arenaya girmenin sonuçlarında düellonun kaybedilmesi durumu olabilir.
-            Kasıtlı olarak olduğunuz yerde dönemezsinz, eğer hakem bunu yaptığınız hissine kapılırsa size bir uyarı verecektir. İkinci bir uyarı alınması durumunda takımınız malup sayılıcaktır.
-            Eğer 3 dakikanın sonunda, herhangi bir robot galip gelmezse, kararı, kontrol ve agresifliği değerlendiren oyun hakemi verecektir.
-            Başka bir robota verilen kasıtlı zarar, diskalifiyeye sebep olur. Zarar vermemeye özen göstermek, robotların sürücülerinin görevi.
-            Hakemin kararı sondur.
-            Lütfen tarışmayın - unutmayın, bu yarışmaların eğlenceli olması gerekiyor.
-            Takımınızdan birinin duelloyu kayıt etmesi (bir telefonla olabilir) tavsiye edilir. Bu sayede, hakem görsel kanıtlardan yararlanabilir.Yarışmacı sayısından dolayı, bazı robotlar bir sonraki tura veda etmek durumunda kalabilir. Bu robotlar rastgele seçilecek ve yarışmadan önce açıklanacak.
-          </p>
+        <h3 style="text-align: center;">Çekirdekte Raspberry Pi</h3>
+        <p>* Tüm robotların çekirdeğinde Raspberry Pi bulunmalı ve kodlama işlemlerinin büyük çoğunluğunun bu RasPi üzerinden gerçekleşmesi gerekir. </p>
+        <p>* Arduino, micro:bit gibi başka mikro kontrol cihazları robotta kullanılabilir ancak genel kontrolün Raspberry Pi üzerinden yürütülmesi gerekir. </p>
+        <p>* Kumanda, bilgisayar, cep telefonu veya tablet gibi cihazlar robotu kontrol ederken kullanılabilirler, ancak yarışma sırasında fiziksel olarak robota bağlı olmamaları gerekir.</p>
+      </div>
+      <div class="col-12 col-md-8">
+        <h3 style="text-align: center;">Güç</h3>
+        <p>* Tüm robotlar pillerle çalışmalıdır. </p>
+        <p>* Pil paketlerini şarj etmek için şebeke gücü kullanılabilir. </p>
+        <p>* Eğer LiPo pilleri kullanılıyorsa, her/herhangi şarj etme işlemi mutlaka ateşe dayanıklı bir çanta içerisinde yapılmalıdır. Bu çantalar (poşetler) bir çok pil satan yerlerde olabilir. Bu, kazaları önlemek içindir.</p>
+      </div>
+      <div class="col-12 col-md-8">
+        <h3 style="text-align: center;">Robot Tipleri</h3>
+        <p>* Uçan robotlara izin verilmez, örn. dronlar. </p>
+        <p>* Yürüyen ve kendini dengeleyebilen robotlara izin verilir. </p>
+      </div>
+      <div class="col-12 col-md-8">
+        <h3 style="text-align: center;">Büyüklük</h3>
+        <p>* Yarışan robotların temel şasisi (tekerlekler ve çıkıntılar dahil olmak üzere) 225mm x 300mm’e sığmalıdır. </p>
+        <p>a) Maksimum genişlik (en) 225mm’den fazla olmamalıdır. </p>
+        <p>b) Maksimum uzunluk (boy) 300mm’den fazla olmamalıdır </p>
+        <p>* Spesifik görevler için robotlara önü en fazla 100mm büyütecek ek parçalar eklenebilir. Bu sebeple, üstüne ek parçalar ekli olan bir robotun en büyük boyutları 225 mm x 400 mm olabilir.</p>
+        <p>* Bir yükseklik limiti olmasa da lütfen ağırlık merkezi yukarıda olan robotların zorlanabileceklerini unutmayınız!  </p>
+        <p>* Ek parça eklerken, ana şasi, Raspberry Pi ve kumanda düzenlemeleri aynı kalmalıdır.  </p>
+      </div>
+      <div class="col-12 col-md-8">
+        <h3 style="text-align: center;">Duman ve Ateş</h3>
+        <p>* Yarışmanın teması ne olursa olsun, robotunuz bilinçli olarak duman veya ateş yaymamalıdır. </p>
+      </div>
+      <div class="col-12 col-md-8">
+        <h3 style="text-align: center;">Görevler</h3>
+        <p>* Robotunuzu test edebileceğiniz birden fazla görev olacak ve her birinin sonucu net skorunuza katkıda bulunacaktır. </p>
+        <p>* Hiçbir görev zorunlu değildir.  </p>
+        <p>* Katılmadığınız görevlerden puan kazanamazsınız. </p>
       </div>
     </div>
   </div>
