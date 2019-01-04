@@ -1,115 +1,131 @@
 .box {
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-    position: relative;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	position: relative;
 }
+
 .box .content {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-    justify-content: flex-start; /* align items in Main Axis */
-    align-items: stretch; /* align items in Cross Axis */
-    align-content: stretch;
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+	justify-content: flex-start; /* align items in Main Axis */
+	align-items: stretch; /* align items in Cross Axis */
+	align-content: stretch;
 }
 
-.video-container{
-    position: relative;
-    min-height:40%;
-    background-color: rgb(54, 62, 80);
-}
-.bannerContainer{
-    position: absolute;
-    top: 0em;
-    right: 0em;
-    left: 0em;
-    background-color: rgba(62, 62, 62, 0.5);
-    height:100%;
-    text-align: center;
-    padding: 10%;
-    padding-top: 15%;
-    max-height: 100%;
-    margin-bottom: 1px;
+.video-container {
+	position: relative;
+	min-height: 40%;
+	background-color: rgb(54, 62, 80);
 }
 
-h1{
-    color: white;
-    font-weight: 400;
+.bannerContainer {
+	position: absolute;
+	top: 0em;
+	right: 0em;
+	left: 0em;
+	background-color: rgba(62, 62, 62, 0.5);
+	height: 100%;
+	text-align: center;
+	padding: 10%;
+	padding-top: 15%;
+	max-height: 100%;
+	margin-bottom: 1px;
 }
 
-h2{
-    color: white;
-    font-weight: 400;
-}
-h3{
-    color: white;
-    font-weight: 400;
-}
-h4{
-    color: #333333;
-    font-weight: 400;
-}
-h5{
-    color: white;
-    font-weight: 400;
-}
-h6{
-    color:white;
-}
-.btn-primary{
-    font-weight: 400;
-    background-color: #f2745f;
-    color: white;
-    border: none;
-    border-radius: none;
-}
-.btn-primary:hover{
-    background-color: #e2644f;
-}
-.btn-secondary{
-    background-color:#46bae2;
-    border:none;
-}
-.btn-secondary:hover{
-    background-color: #36aad2;
-    border:none;
-}
-.counterContainer{
-    background-color:#46bae2;
+h1 {
+	color: white;
+	font-weight: 400;
 }
 
-.texticon{
-    width: 25%;
-    padding-bottom: 1vw;
-    padding-top: 4vw;
+h2 {
+	color: white;
+	font-weight: 400;
 }
 
-.darksegment{
-    background-color: rgb(54, 62, 80);
+h3 {
+	color: white;
+	font-weight: 400;
 }
-.greysegment{
-    background-color: rgb(104, 112, 130);
+
+h4 {
+	color: #333333;
+	font-weight: 400;
 }
-.memberPic{
-    width: 80%;
+
+h5 {
+	color: white;
+	font-weight: 400;
 }
-.back-to-top{
-    color: white;
-    align-self:stretch; 
+
+h6 {
+	color: white;
+}
+
+.btn-primary {
+	font-weight: 400;
+	background-color: #f2745f;
+	color: white;
+	border: none;
+	border-radius: none;
+}
+
+.btn-primary:hover {
+	background-color: #e2644f;
+}
+
+.btn-secondary {
+	background-color: #46bae2;
+	border: none;
+}
+
+.btn-secondary:hover {
+	background-color: #36aad2;
+	border: none;
+}
+
+.counterContainer {
+	background-color: #46bae2;
+}
+
+.texticon {
+	width: 25%;
+	padding-bottom: 1vw;
+	padding-top: 4vw;
+}
+
+.darksegment {
+	background-color: rgb(54, 62, 80);
+}
+
+.greysegment {
+	background-color: rgb(104, 112, 130);
+}
+
+.memberPic {
+	width: 80%;
+}
+
+.back-to-top {
+	color: white;
+	align-self: stretch;
 	width: 100%;
 	height: 100%;
-    background-color: #46bae2; 
-    margin-bottom:0;
+	background-color: #46bae2;
+	margin-bottom: 0;
 }
-.back-to-top:hover{
-    color: white;
-    align-self:stretch; 
+
+.back-to-top:hover {
+	color: white;
+	align-self: stretch;
 	width: 100%;
 	height: 100%;
-    background-color: #46bae2; 
-    margin-bottom:0;
-    text-decoration: none;
+	background-color: #46bae2;
+	margin-bottom: 0;
+	text-decoration: none;
 }
-.imgBanner{
-    background-image: url(../img/test.jpg);
+
+.imgBanner {
+	background-image: url(../img/test.jpg);
 }

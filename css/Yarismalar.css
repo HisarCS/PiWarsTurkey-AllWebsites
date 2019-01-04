@@ -1,61 +1,57 @@
 .Yarismabanner {
 	background-image: url(../img/test.jpg);
 	background-repeat: no-repeat;
-  background-size: cover;
- 	background-position: center;
-  color: white;
-  text-align: center;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
 }
 
 .Yarismabanner-content h2 {
-  font-size: 80px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 160px;
-
+	font-size: 80px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 160px;
 }
 
 .Yarismabanner-content h3 {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 30px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
 }
 /* Text's css starts here*/
 .YarismaText {
-  background-color: rgba(54, 62, 80, 0.75); /*grey*/
-  color: white;
-  padding-left: 170px;
-  padding-bottom: 50px;
-  padding-right: 170px;
-  padding-top: 10px;
+	background-color: rgba(54, 62, 80, 0.75); /*grey*/
+	color: white;
+	padding-left: 170px;
+	padding-bottom: 50px;
+	padding-right: 170px;
+	padding-top: 10px;
 }
 
 .YarismaText-content h2 {
-  font-size: 35px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-weight: bold; 
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .YarismaText-content h3 {
-  font-size: 35px;
-  font-weight: 700px;
-  text-transform: uppercase;
-  font-weight: bold; 
-}
-
-.YarismaText-content ul {
+	font-size: 35px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .YarismaText-content img {
-  float: right;
+	float: right;
 }
 
 .YarismaText-content ul li {
-  font-size: 20px;
-  padding-left: 50px;
+	font-size: 20px;
+	padding-left: 50px;
 }

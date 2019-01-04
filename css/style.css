@@ -1,14 +1,14 @@
-@font-face
-{
+@font-face {
 	font-family: MyFont;
-	src:url(digital.ttf);
+	src: url(digital.ttf);
 }
-.info
-{
+
+.info {
 	font-family: MyFont;
 	font-size: 41px;
 	font-weight: bold;
 }
-div.day{
+
+div.day {
 	font-size: 21px;
 }
